@@ -1,0 +1,436 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+body, html {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+  color: #000; }
+
+h2 {
+  font-size: 48px;
+  font-weight: 500; }
+
+.fa.fa-angle-down {
+  margin-left: 5px; }
+
+.nav {
+  font-size: 40px;
+  font-weight: 100;
+  height: 52px;
+  display: inline-flex;
+  width: 52px;
+  border: 1px solid #222;
+  justify-content: center;
+  align-items: center;
+  opacity: .4;
+  transition: .25s ease-in;
+  cursor: pointer; }
+  .nav:hover {
+    opacity: 1; }
+  .nav.nav-prev {
+    border-right: 0;
+    margin-left: 30px; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+.button {
+  padding: 15px 50px;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: ease-in .25s;
+  background-color: #fff;
+  border: 1px solid #fff; }
+  .button.b-trans {
+    background-color: unset;
+    border: 1px solid #fff;
+    color: #fff; }
+    .button.b-trans:hover {
+      background-color: #fff;
+      color: #017da4; }
+  .button.b-red {
+    background-color: #db3832;
+    border: 1px solid #db3832;
+    color: #fff; }
+    .button.b-red:hover {
+      background-color: unset;
+      color: #db3832; }
+
+.hint-trigger {
+  position: relative; }
+
+.hint {
+  display: none;
+  background-color: #fff;
+  z-index: 100;
+  padding: 12px 30px;
+  top: 73px;
+  position: absolute;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.5); }
+  .hint::after {
+    content: '▲';
+    position: absolute;
+    text-shadow: 0px -2px 2px #969696;
+    top: -29px;
+    color: #fff;
+    font-size: 30px;
+    left: 50px; }
+
+.horizontal-menu {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  align-items: stretch; }
+  .horizontal-menu li {
+    display: inline-block;
+    transition: .25s ease-in; }
+    .horizontal-menu li a {
+      display: flex;
+      align-items: center;
+      height: 100%; }
+
+.header .black-panel {
+  font-size: 1rem;
+  background-color: #222;
+  width: 100%;
+  color: #fff; }
+  .header .black-panel .row {
+    justify-content: space-between;
+    align-items: center;
+    height: 45px; }
+    .header .black-panel .row .location-info {
+      padding: 13.5px 0; }
+      .header .black-panel .row .location-info .lang {
+        display: inline-block;
+        padding-right: 10px; }
+      .header .black-panel .row .location-info .town {
+        display: inline-block;
+        padding-left: 10px; }
+    .header .black-panel .row .menu-wrapper {
+      height: 100%; }
+      .header .black-panel .row .menu-wrapper .menu {
+        height: 100%;
+        padding: 0;
+        list-style-type: none;
+        margin: 0;
+        display: flex;
+        align-items: stretch;
+        flex-wrap: wrap;
+        justify-content: center; }
+        .header .black-panel .row .menu-wrapper .menu li {
+          display: inline-block;
+          transition: .25s ease-in;
+          position: relative; }
+          .header .black-panel .row .menu-wrapper .menu li:hover {
+            background-color: #555; }
+          .header .black-panel .row .menu-wrapper .menu li.active {
+            background-color: #54be94; }
+          .header .black-panel .row .menu-wrapper .menu li a {
+            padding: 13.5px 22px;
+            display: flex;
+            align-items: center;
+            height: 100%; }
+            .header .black-panel .row .menu-wrapper .menu li a img {
+              height: 18px;
+              margin-right: 8px; }
+
+.header .menu-panel {
+  margin-top: 17px; }
+  .header .menu-panel .row {
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500; }
+    .header .menu-panel .row .logo-and-menu {
+      display: flex;
+      align-items: center; }
+      .header .menu-panel .row .logo-and-menu .logo-wrapper {
+        padding: 10px 15px 10px 0; }
+        .header .menu-panel .row .logo-and-menu .logo-wrapper img {
+          height: 50px; }
+      .header .menu-panel .row .logo-and-menu .menu-wrapper {
+        padding: 0 15px 0 20px; }
+        .header .menu-panel .row .logo-and-menu .menu-wrapper li {
+          padding: 0 14px; }
+          .header .menu-panel .row .logo-and-menu .menu-wrapper li a {
+            transition: .25s ease-in; }
+            .header .menu-panel .row .logo-and-menu .menu-wrapper li a:hover {
+              color: #777; }
+    .header .menu-panel .row .tools-wrapper ul {
+      padding: 15px 0; }
+      .header .menu-panel .row .tools-wrapper ul li {
+        position: relative;
+        padding: 5px 12px; }
+        .header .menu-panel .row .tools-wrapper ul li .hint {
+          min-width: 270px;
+          top: 50px; }
+        .header .menu-panel .row .tools-wrapper ul li a {
+          transition: .25s ease-in; }
+          .header .menu-panel .row .tools-wrapper ul li a:hover {
+            color: #777; }
+          .header .menu-panel .row .tools-wrapper ul li a img {
+            width: 22px;
+            height: 22px;
+            margin-right: 5px; }
+        .header .menu-panel .row .tools-wrapper ul li .hint {
+          text-align: center; }
+
+.header .variety-menu {
+  background-color: #efefef;
+  font-size: 18px;
+  font-weight: 500; }
+  .header .variety-menu .row .menu {
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    height: 100%; }
+    .header .variety-menu .row .menu li {
+      position: relative;
+      height: 100%; }
+      .header .variety-menu .row .menu li a {
+        height: 100%;
+        padding: 15px 15px;
+        transition: .25s ease-in; }
+        .header .variety-menu .row .menu li a:hover {
+          background-color: #e5e5e5; }
+      .header .variety-menu .row .menu li .hint {
+        padding: 20px 0;
+        right: 0; }
+        .header .variety-menu .row .menu li .hint:after {
+          right: 20px;
+          left: unset; }
+        .header .variety-menu .row .menu li .hint .menu {
+          height: unset;
+          padding: 0;
+          display: block;
+          min-width: 270px; }
+          .header .variety-menu .row .menu li .hint .menu li {
+            display: block; }
+            .header .variety-menu .row .menu li .hint .menu li a {
+              width: 100%;
+              padding: 5px 30px; }
+              .header .variety-menu .row .menu li .hint .menu li a:hover {
+                background-color: #e5e5e5; }
+
+.carousel {
+  margin-top: 30px;
+  width: 100%; }
+  .carousel .item-wrapper {
+    min-height: 450px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    position: relative; }
+    .carousel .item-wrapper.blue {
+      color: #fff; }
+      .carousel .item-wrapper.blue .row .nav-btn-wrapper .nav {
+        color: #fff;
+        border: 1px solid #fff; }
+    .carousel .item-wrapper .row {
+      flex-direction: column;
+      align-items: flex-start; }
+      .carousel .item-wrapper .row h2 {
+        font-size: 48px;
+        margin: 0 0 38px 0;
+        font-weight: 500; }
+      .carousel .item-wrapper .row h4 {
+        font-weight: 400;
+        font-size: 24px;
+        margin: 0 0 52px 0; }
+      .carousel .item-wrapper .row .nav-btn-wrapper {
+        display: flex;
+        align-items: center; }
+  .carousel .owl-stage {
+    display: flex;
+    align-items: center; }
+  .carousel .owl-dots {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 40px; }
+    .carousel .owl-dots .dot {
+      width: 22px;
+      height: 22px;
+      background-color: unset;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      opacity: 1;
+      cursor: pointer;
+      transition: ease-in .25s;
+      margin: 10px 5px; }
+      .carousel .owl-dots .dot.active {
+        background-color: #fff; }
+
+.catalogue-news {
+  padding: 3rem 0; }
+  .catalogue-news .catalogue-carousel {
+    margin: 0; }
+  .catalogue-news .row.title-nav {
+    padding-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap; }
+    .catalogue-news .row.title-nav h2 {
+      margin: 0; }
+    .catalogue-news .row.title-nav .nav-wrapper {
+      display: flex; }
+    .catalogue-news .row.title-nav .nav {
+      line-height: 0; }
+      .catalogue-news .row.title-nav .nav .nav-prev {
+        margin-left: 10px; }
+  .catalogue-news .row .item {
+    display: flex;
+    border: solid 1px #fff;
+    transition: ease-in .25s;
+    flex-direction: column;
+    padding: 10px 10px 0 10px; }
+    .catalogue-news .row .item:hover {
+      border: solid 1px #979797; }
+      .catalogue-news .row .item:hover .button-wrapper .button {
+        opacity: 1; }
+    .catalogue-news .row .item .image {
+      height: 400px;
+      background-position: center center;
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+      width: 100%;
+      position: relative; }
+      .catalogue-news .row .item .image .tip {
+        background-color: #02c191;
+        color: 12px;
+        padding: 7px 12px;
+        color: #fff;
+        position: absolute;
+        left: 0;
+        bottom: -16px;
+        border-radius: 10px; }
+    .catalogue-news .row .item h4 {
+      font-size: 24px;
+      margin-top: 22px;
+      margin-bottom: 3px; }
+    .catalogue-news .row .item p {
+      margin: 0;
+      font-size: 18px;
+      text-transform: uppercase; }
+    .catalogue-news .row .item .button-wrapper {
+      margin-left: -10px;
+      margin-right: -10px;
+      display: flex;
+      margin-top: 30px;
+      height: 52px; }
+      .catalogue-news .row .item .button-wrapper .button {
+        border-radius: unset;
+        width: 100%;
+        text-align: center;
+        background-color: #f0f0f0;
+        color: #4a4a4a;
+        font-size: 16px;
+        transition: .25s ease-in;
+        opacity: 0; }
+        .catalogue-news .row .item .button-wrapper .button:hover {
+          background-color: #ddd; }
+
+.know-more {
+  padding: 50px 0;
+  background-image: url(../img/rzhd-tablet.jpg); }
+  .know-more .row {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around; }
+    .know-more .row p {
+      flex: 0 1 700px;
+      font-size: 24px;
+      color: #fff; }
+    .know-more .row .button {
+      flex: 0 0 250px;
+      text-align: center;
+      margin: 0 20px; }
+
+.news {
+  padding: 20px 0 50px 0; }
+  .news .row {
+    align-items: stretch; }
+    .news .row.title {
+      justify-content: space-between;
+      align-items: center; }
+      .news .row.title h3 {
+        font-weight: 400;
+        font-size: 18px;
+        text-transform: uppercase; }
+      .news .row.title a:hover {
+        color: #555; }
+    .news .row .item-wrapper {
+      margin-bottom: 15px; }
+    .news .row .item {
+      background: #fff;
+      padding: 30px;
+      border: solid 1px #d0d0d0;
+      height: 100%; }
+      .news .row .item h3 {
+        margin: 0;
+        font-size: 24px;
+        padding: 20px 0;
+        font-weight: 500; }
+      .news .row .item p {
+        margin: 0;
+        padding: 10px 0;
+        font-size: 18px;
+        color: #848484; }
+      .news .row .item .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0; }
+        .news .row .item .info a {
+          color: #11519b;
+          font-size: 18px; }
+          .news .row .item .info a .fa {
+            margin-left: 10px; }
+          .news .row .item .info a:hover {
+            text-decoration: underline; }
+
+.blog .row .item {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 300px; }
+  .blog .row .item.white {
+    color: #fff; }
+  .blog .row .item h4 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 16px; }
+  .blog .row .item p {
+    margin: 0;
+    font-size: 16px;
+    padding-bottom: 16px; }
+  .blog .row .item .button {
+    margin-top: 70px;
+    background-color: unset; }
+    .blog .row .item .button:hover {
+      background-color: #fff;
+      color: #222; }

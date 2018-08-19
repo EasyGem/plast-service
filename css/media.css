@@ -1,0 +1,229 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width : 1200px) {
+	.header .menu-panel .row {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.blog .row {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.blog .row .item {
+		background-position: left center;
+		padding: 40px 30px;
+		margin: 10px 0;
+	}
+	.header .menu-panel .row .logo-and-menu .menu-wrapper .submenu.partners .image {
+		padding: 10px;
+	}
+	.header .menu-panel .row .logo-and-menu .menu-wrapper .submenu.partners .info {
+		padding: 10px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.header .black-panel .row {
+		height: unset;
+		flex-direction: column;
+	}
+	.header .menu-panel .row .logo-and-menu {
+		flex-direction: column;
+	}
+	.know-more .row {
+		flex-direction: column;
+	}
+	.know-more .row p{
+		flex: unset;
+		text-align: center;
+	}
+	.know-more .row .button{
+		flex: unset;
+		text-align: center;
+	}
+	.know-more.questions .row .button {
+		flex: unset;
+		margin: 10px 0 0 0;
+	}
+	.know-more {
+		padding: 50px 10px;
+	}
+	.footer .row .item {
+		text-align: center;
+	}
+	.footer .row .item.two .socials {
+		margin-top: 15px;
+		justify-content: center;
+	}
+	.footer .row .item.one ul {
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
+		justify-content: center;
+	}
+	.footer .row .item.one ul li{
+		padding: 5px 10px;
+	}
+	.footer .row .item h3 {
+		margin-top: 20px;
+	}
+	.footer br {
+		display: none;
+	}
+	.footer .row .item.three p {
+		justify-content: center;
+	}
+	.header .menu-panel .row .logo-and-menu .menu-wrapper .submenu.partners {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		padding: 25px 15px;
+	}
+	.header .menu-panel .row .logo-and-menu .menu-wrapper .submenu.partners .image {
+		flex: unset;
+	}
+	.header .menu-panel .row .logo-and-menu .menu-wrapper .submenu.partners .info {
+		flex: unset;
+	}
+	.header .menu-panel .row .logo-and-menu .menu-wrapper .submenu.company ul {
+		flex-direction: column;
+		width: 100%;
+	}
+	.header .menu-panel .row .logo-and-menu .menu-wrapper .submenu.company ul li{
+		width: 100%;
+		text-align: center;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 576px) {
+	.header .menu-panel .row .tools-wrapper ul {
+		flex-direction: column;
+		align-items: center;
+	}
+	.header .menu-panel .row .logo-and-menu .menu-wrapper {
+		padding: 5px 0;
+	}
+    .header .menu-panel .row {
+		padding: 0;
+		font-size: 14px;
+	}
+	.header .variety-menu .row .menu {
+		font-size: 14px;
+	}
+	.header .variety-menu .row .menu li a {
+		padding: 10px 10px;
+	}
+	.carousel .item-wrapper {
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+	.carousel .item-wrapper .row .nav-btn-wrapper .nav.nav-prev {
+		border-right: 0;
+		margin-left: 5px;
+	}
+	.catalogue-news .row.title-nav {
+		align-items: flex-start;
+		flex-wrap: nowrap;
+		flex-direction: column;
+	}
+	.catalogue-news .row.title-nav .nav-wrapper {
+		margin-top: 20px;
+	}
+	.catalogue-news .row.title-nav .nav-wrapper .nav.nav-prev {
+		margin-left: 5px;
+	}
+	.news .row.title {
+		justify-content: space-between;
+		flex-direction: column;
+		-ms-align-items: flex-start;
+		align-items: flex-start;
+		padding: 0 15px;
+	}
+	.news .row.title h2{
+		margin-bottom: 0px;
+	}
+	.header .variety-menu .row .menu li .hint {
+		padding: 20px 0;
+		left: -150%;
+		width: 250px;
+		top: 60px;
+	}
+	.header .variety-menu .row .menu li .hint::after {
+		left: -10%;
+	}
+	.header .menu-panel .row .logo-and-menu .menu-wrapper .submenu {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.header .menu-panel .row .logo-and-menu .menu-wrapper .submenu .variety .items-wrapper .item {
+		flex: 0 1 50%;
+	}
+	.header .menu-panel .row .logo-and-menu .menu-wrapper .submenu .variety {
+		padding: 20px 10px;
+	}
+	.header .menu-panel .row .logo-and-menu .menu-wrapper .submenu.catalogue ul {
+		padding: 15px 15px;
+	}
+	.header .menu-panel .row .logo-and-menu .menu-wrapper .submenu.company ul li a {
+		padding: 15px 35px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+@media only screen and (min-width : 1440px) {
+	.container {
+		width: 1332px;
+		max-width: 100%;
+	}
+}
