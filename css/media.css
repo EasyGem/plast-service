@@ -1,7 +1,11 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-
+@media only screen and (max-width : 1440px) {
+	.header .variety-menu .row .menu {
+		justify-content: center;
+	}
+}
 @media only screen and (max-width : 1200px) {
 	.header .menu-panel .row {
 		-webkit-flex-direction: column;
@@ -10,10 +14,66 @@
 		-o-flex-direction: column;
 		flex-direction: column;
 	}
+	.paddings-lr {
+		padding: unset;
+	}
+	.paddings-lr-25-5 {
+		padding: unset;
+	}
+	.paddings-lr-40 {
+		padding: unset;
+	}
+	.paddings-lr-70 {
+		padding: unset;
+	}
+	.paddings-lr-18 {
+	  padding-right: unset;
+	  padding-left: unset;
+	}
+	.submenu.company {
+		justify-content: center;
+		padding-left: unset;
+	}
+	.submenu.catalogue {
+		padding-left: unset;
+	}
+	.catalogue-news .row .item {
+		display: flex;
+		border: solid 1px #fff;
+		transition: ease-in .25s;
+		flex-direction: column;
+		padding: 10px 10px 0 10px;
+		max-width: 100%;
+	}
+	.carousel .item-wrapper .hover-item img {
+		width: 640px;
+		border-width: 20px 30px;
+	}
+	.carousel .item-wrapper .hover-item img:hover {
+		width: 700px;
+		border: none;
+	}
+	.carousel .item-wrapper.blue .hover-item img {
+		width: 540px;
+		border-width: 20px 30px;
+	}
+	.carousel .item-wrapper.blue .hover-item img:hover {
+		width: 600px;
+		border: none;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.carousel .hover-item {
+		display: none;
+	}
+	.carousel .item-wrapper {
+		background-image: url(../img/slide-yellow.jpg);
+	}
+	.carousel .item-wrapper.blue {
+		background-image: url(../img/slide-blue.jpg);
+	}
 	.blog .row {
 		-webkit-flex-direction: column;
 		-moz-flex-direction: column;
@@ -23,7 +83,8 @@
 	}
 	.blog .row .item {
 		background-position: left center;
-		padding: 40px 30px;
+		padding-left: 30px;
+		padding-right: 30px;
 		margin: 10px 0;
 	}
 	.header .menu-panel .row .logo-and-menu .menu-wrapper .submenu.partners .image {
@@ -108,6 +169,27 @@
 		width: 100%;
 		text-align: center;
 	}
+	.know-more.questions .row p {
+		flex: unset;
+		margin-bottom: 10px;
+	}
+	.footer .low {
+		justify-content: center;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+	}
+	.header .menu-panel .row .logo-and-menu .menu-wrapper .submenu .variety .items-wrapper .item {
+		flex: 0 1 50%;
+	}
+	.carousel .item-wrapper .row {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -173,9 +255,6 @@
 		-ms-flex-direction: column;
 		-o-flex-direction: column;
 		flex-direction: column;
-	}
-	.header .menu-panel .row .logo-and-menu .menu-wrapper .submenu .variety .items-wrapper .item {
-		flex: 0 1 50%;
 	}
 	.header .menu-panel .row .logo-and-menu .menu-wrapper .submenu .variety {
 		padding: 20px 10px;
