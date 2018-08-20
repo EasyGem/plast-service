@@ -332,8 +332,7 @@ a {
           padding: 30px 35px;
           transition: .25s ease-in; }
           .submenu.company ul li a:hover {
-            background-color: #eee;
-            color: #000; }
+            color: #666; }
   .submenu.partners {
     padding: 20px 50px 60px 5px;
     justify-content: center; }
