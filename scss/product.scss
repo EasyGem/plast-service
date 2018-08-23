@@ -1,0 +1,180 @@
+.product-block {
+  .row {
+    &.title {
+      h2 {
+        font-size: 34px;
+        font-weight: 500;
+        margin-top: 15px;
+        margin-bottom: 21px;
+      }
+    }
+    &.product-wrapper {
+      .preview {
+        flex: 1 1 66.6667%;
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .product-carousel {
+          display: flex;
+          max-width: 100%;
+          width: 570px;
+          box-shadow: 0 2px 11px 0 rgba(116, 116, 116, 0.5);
+          img {
+            width: 100%;
+          }
+        }
+      }
+      .info {
+        flex: 1 1 33.3333%;
+        border-left: solid 1px #979797;
+        padding: 25px 30px;
+        h3 {
+          font-size: 24px;
+          font-weight: 500;
+          margin: 0;
+        }
+        p {
+          margin-top: 12px;
+          font-size: 20px;
+          font-weight: 400;
+          &.article {
+            text-transform: lowercase;
+            font-size: 20px;
+          }
+          &.status {
+            color: #666;
+            font-size: 24px;
+            &.green {
+              color: #6ebf17;
+            }
+          }
+          &.price {
+            font-size: 32px;
+            font-weight: 500;
+          }
+          .tip {
+            font-size: 14px;
+            padding: 5px 13px;
+            background-color: #f2f2f2;
+          }
+        }
+        .params {
+          display: flex;
+          p {
+            font-size: 18px;
+            font-weight: 500;
+            &:first-child {
+              padding-right: 70px;
+            }
+            span {
+              margin-top: 6px;
+              display: block;
+              font-weight: 400;
+              width: 100%;
+            }
+          }
+        }
+        form {
+          .button {
+            background-color: #3a84db;
+            border: 1px solid #3a84db;
+            font-size: 19px;
+            font-weight: 500;
+            padding: 15px 30px;
+            text-transform: unset;
+            margin-top: 30px;
+            color: #fff;
+            cursor: pointer;
+            &:hover {
+              background-color: #fff;
+              color: #3a84db;
+            }
+          }
+          p {
+            font-weight: 500;
+            }
+          .control-group {
+            .block {
+                width: 17px;
+                height: 19px;
+                background-color: #fff;
+                border: solid 1px #979797;
+                display: inline-block;
+                margin-left: 8px;
+                &.green {
+                  background-color: #417505;;
+                }
+            }
+            .control {
+              font-family: arial;
+              display: flex;
+              align-items: center;
+              position: relative;
+              padding-left: 30px;
+              margin-bottom: 15px;
+              font-weight: 400;
+              cursor: pointer;
+              font-size: 18px;
+            }
+            .control input {
+              position: absolute;
+              z-index: -1;
+              opacity: 0;
+            }
+            .control_indicator {
+              position: absolute;
+              top: 2px;
+              left: 0;
+              height: 20px;
+              width: 20px;
+              background: #fff;
+              border: 1px solid #000000;
+            }
+            .control-radio .control_indicator {
+              border-radius: 50%;
+            }
+
+            .control:hover input ~ .control_indicator,
+            .control input:focus ~ .control_indicator {
+              background: #e6e6e6;
+            }
+
+            .control input:checked ~ .control_indicator {
+              background: #fff;
+            }
+            .control:hover input:not([disabled]):checked ~ .control_indicator,
+            .control input:checked:focus ~ .control_indicator {
+              background: #fff;
+            }
+            .control input:disabled ~ .control_indicator {
+              background: #e6e6e6;
+              opacity: 0.6;
+              pointer-events: none;
+            }
+            .control_indicator:after {
+              box-sizing: unset;
+              content: '';
+              position: absolute;
+              display: none;
+            }
+            .control input:checked ~ .control_indicator:after {
+              display: block;
+            }
+            .control-radio .control_indicator:after {
+              left: 3px;
+              top: 3px;
+              height: 12px;
+              width: 12px;
+              border-radius: 50%;
+              background: #4a90e2;
+            }
+            .control-radio input:disabled ~ .control_indicator:after {
+              background: #7b7b7b;
+          }
+        }
+      }
+    }
+  }
+}
+}

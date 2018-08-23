@@ -1,0 +1,273 @@
+.carousel {
+  margin-top: 30px;
+  width: 100%; }
+  .carousel .item-wrapper {
+    min-height: 525px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    position: relative;
+    background-image: url(../img/slide-yellow-bg.jpg); }
+    .carousel .item-wrapper .row {
+      position: relative;
+      z-index: 2;
+      flex-direction: column;
+      align-items: flex-start;
+      pointer-events: none; }
+      .carousel .item-wrapper .row h2 {
+        font-size: 48px;
+        margin: 0 0 38px 0;
+        font-weight: 500; }
+      .carousel .item-wrapper .row h4 {
+        font-weight: 400;
+        font-size: 24px;
+        margin: 0 0 52px 0; }
+      .carousel .item-wrapper .row .nav-btn-wrapper {
+        display: flex;
+        align-items: center;
+        pointer-events: auto; }
+    .carousel .item-wrapper .hover-item {
+      position: absolute;
+      right: 0px;
+      top: 30px; }
+      .carousel .item-wrapper .hover-item img {
+        width: 740px;
+        border: 30px solid rgba(0, 0, 0, 0);
+        border-top: 20px solid rgba(0, 0, 0, 0);
+        border-bottom: 20px solid rgba(0, 0, 0, 0); }
+        .carousel .item-wrapper .hover-item img:hover {
+          width: 800px;
+          border: none; }
+    .carousel .item-wrapper.blue {
+      color: #fff;
+      background-image: url(../img/slide-blue-bg.jpg); }
+      .carousel .item-wrapper.blue .hover-item img {
+        width: 640px; }
+        .carousel .item-wrapper.blue .hover-item img:hover {
+          width: 700px; }
+      .carousel .item-wrapper.blue .row .nav-btn-wrapper .nav {
+        color: #fff;
+        border: 1px solid #fff; }
+  .carousel .owl-stage {
+    display: flex;
+    align-items: center; }
+  .carousel .owl-dots {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+    pointer-events: none; }
+    .carousel .owl-dots .dot {
+      width: 22px;
+      height: 22px;
+      background-color: unset;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      opacity: 1;
+      cursor: pointer;
+      transition: ease-in .25s;
+      margin: 10px 5px;
+      pointer-events: auto; }
+      .carousel .owl-dots .dot.active {
+        background-color: #fff; }
+
+.catalogue-news {
+  padding: 47px 0 22px 0; }
+  .catalogue-news .catalogue-carousel {
+    margin: 0; }
+  .catalogue-news .row.title-nav {
+    padding-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap; }
+    .catalogue-news .row.title-nav h2 {
+      margin: 0; }
+    .catalogue-news .row.title-nav .nav-wrapper {
+      display: flex; }
+    .catalogue-news .row.title-nav .nav {
+      line-height: 0; }
+      .catalogue-news .row.title-nav .nav .nav-prev {
+        margin-left: 10px; }
+  .catalogue-news .row.catalogue-carousel .item {
+    display: flex;
+    border: solid 1px #fff;
+    transition: ease-in .25s;
+    flex-direction: column;
+    padding: 10px 10px 0 10px;
+    max-width: 387px;
+    margin: auto; }
+    .catalogue-news .row.catalogue-carousel .item:hover {
+      border: solid 1px #979797; }
+      .catalogue-news .row.catalogue-carousel .item:hover .button-wrapper .button {
+        opacity: 1; }
+    .catalogue-news .row.catalogue-carousel .item .image {
+      height: 410px;
+      background-position: center center;
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+      position: relative;
+      align-self: center;
+      width: 100%;
+      background-color: #f7f7f7; }
+      .catalogue-news .row.catalogue-carousel .item .image .tip {
+        background-color: #02c191;
+        color: 12px;
+        padding: 7px 12px;
+        color: #fff;
+        position: absolute;
+        left: 0;
+        bottom: -16px;
+        border-radius: 10px; }
+    .catalogue-news .row.catalogue-carousel .item h4 {
+      font-size: 24px;
+      margin-top: 22px;
+      margin-bottom: 3px; }
+    .catalogue-news .row.catalogue-carousel .item p {
+      margin: 0;
+      font-size: 18px;
+      text-transform: uppercase; }
+    .catalogue-news .row.catalogue-carousel .item .button-wrapper {
+      margin-left: -10px;
+      margin-right: -10px;
+      display: flex;
+      margin-top: 16px;
+      height: 52px; }
+      .catalogue-news .row.catalogue-carousel .item .button-wrapper .button {
+        border-radius: unset;
+        width: 100%;
+        text-align: center;
+        background-color: #f0f0f0;
+        color: #4a4a4a;
+        font-size: 16px;
+        transition: .25s ease-in;
+        opacity: 0; }
+        .catalogue-news .row.catalogue-carousel .item .button-wrapper .button:hover {
+          background-color: #ddd; }
+
+.know-more.bg {
+  margin-bottom: 50px; }
+
+.know-more.bg .row {
+  padding-left: 153px;
+  padding-right: 122px; }
+
+.know-more .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+  background-image: url(../img/rzhd-tablet.jpg);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around; }
+  .know-more .row p {
+    flex: 0 1 625px;
+    font-size: 24px;
+    color: #fff; }
+  .know-more .row .button {
+    flex: 0 0 250px;
+    text-align: center;
+    margin: 0 10px; }
+
+.news {
+  padding: 0px 0 58px 0;
+  background-color: #fbfbfb; }
+  .news h2 {
+    margin: 30px 0; }
+  .news .row {
+    align-items: stretch; }
+    .news .row.title {
+      justify-content: space-between;
+      align-items: center; }
+      .news .row.title h3 {
+        font-weight: 400;
+        font-size: 18px;
+        text-transform: uppercase; }
+      .news .row.title a:hover {
+        color: #555; }
+    .news .row .item-wrapper {
+      margin-bottom: 15px; }
+    .news .row .item {
+      background: #fff;
+      padding: 30px;
+      border: solid 1px #d0d0d0;
+      height: 100%; }
+      .news .row .item h3 {
+        margin: 0;
+        font-size: 24px;
+        padding: 20px 0;
+        font-weight: 500; }
+      .news .row .item p {
+        margin: 0;
+        padding: 10px 0;
+        font-size: 18px;
+        color: #848484; }
+      .news .row .item .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0; }
+        .news .row .item .info a {
+          color: #11519b;
+          font-size: 18px; }
+          .news .row .item .info a .fa {
+            margin-left: 10px; }
+          .news .row .item .info a:hover {
+            text-decoration: underline; }
+
+.blog {
+  padding-bottom: 50px; }
+  .blog h2 {
+    margin: 47px 0 51px 0; }
+  .blog .row {
+    max-width: 100%;
+    flex-wrap: nowrap;
+    margin: 0; }
+    .blog .row .item {
+      background-position: center center;
+      background-size: cover;
+      padding: 28px 60px 40px 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      min-height: 300px;
+      margin: 0 9px;
+      flex: 1 1 33%; }
+      .blog .row .item:nth-child(1) {
+        background-image: url(../img/blog1.png); }
+      .blog .row .item:nth-child(2) {
+        background-image: url(../img/blog2.png); }
+      .blog .row .item:nth-child(3) {
+        background-image: url(../img/blog3.png); }
+      .blog .row .item:first-child {
+        margin: 0; }
+      .blog .row .item:last-child {
+        margin: 0; }
+      .blog .row .item .button {
+        padding: 15px 40px;
+        margin-top: 135px;
+        background-color: unset;
+        border-color: #222; }
+        .blog .row .item .button:hover {
+          background-color: #222;
+          color: #fff; }
+      .blog .row .item.white {
+        color: #fff; }
+        .blog .row .item.white .button {
+          border-color: #fff; }
+          .blog .row .item.white .button:hover {
+            background-color: #fff;
+            color: #222; }
+      .blog .row .item h4 {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0;
+        padding-bottom: 15px; }
+      .blog .row .item p {
+        margin: 0;
+        font-size: 16px;
+        padding-bottom: 16px; }

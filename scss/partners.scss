@@ -1,0 +1,83 @@
+.partners-page {
+  h2 {
+    font-size: 34px;
+  }
+  .row.title {
+    h2 {
+      margin-top: 15px;
+      margin-bottom: 21px;
+    }
+  }
+  .row.banner-wrapper {
+    padding-top: 49px;
+    padding-bottom: 39px;
+    .banner {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      background-image: url(../img/contract.jpg);
+      background-position: center center;
+      background-size: cover;
+      min-height: 550px;
+      width: 100%;
+      color: #fff;
+      padding: 30px 85px;
+      h2 {
+        font-size: 52px;
+        margin: 0 0 22px 0;
+        text-shadow: 0 2px 4px rgba(91, 91, 91, 0.5);
+      }
+      p {
+        font-size: 40px;
+        font-weight: 400;
+        margin: 0;
+        text-shadow: 0 2px 4px rgba(53, 53, 53, 0.5);
+      }
+      .button {
+        margin-top: 42px;
+        background-color: unset;
+        border-width: 2px;
+        padding: 15px 30px;
+        font-size: 16px;
+        &:hover {
+          background-color: #fff;
+          color: #222;
+        }
+      } 
+    }
+  }
+  .row.about {
+    flex-wrap: nowrap;
+    margin-bottom: 46px;
+    .item {
+      background-color: #fff;
+      box-shadow: 0 2px 16px 0 rgba(164, 164, 164, 0.5);
+      padding: 40px 70px;
+      flex: 1 1 50%;
+      &:first-child {
+        margin-right: 35px;
+      }
+      &:last-child {
+        margin-left: 35px;
+      }
+      h3 {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 0 0 34px 0;
+      }
+      ul {
+        padding: 0 0 0 20px;
+        li {
+          font-size: 18px;
+          font-weight: 400;
+          margin-bottom: 16px;
+          color: #54be94;
+          span {
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+}

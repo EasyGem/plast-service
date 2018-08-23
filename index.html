@@ -8,7 +8,7 @@
 <head>
 	<meta charset="utf-8" />
 
-	<title>Заголовок</title>
+	<title>Главная</title>
 	<meta content="" name="description" />
 	<meta content="" property="og:image" />
 	<meta content="" property="og:description" />
@@ -28,64 +28,126 @@
 	<link rel="stylesheet" href="libs/owl-carousel/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/media-main.css" />
+	<link rel="stylesheet" href="css/media-index.css" />
 </head>
 <body>
 	
 	<section class="header">
 		<div class="sticky">
-		<div class="black-panel">
-			<div class="container">
-				<div class="row">
-					<div class="location-info">
-						<div class="lang">
-							<a href="#">EN<a> | <a href="#">RU</a>
-						</div>
-						<div class="town">
-							<span>Москва <i class="fa fa-angle-down"></i></span>
-							<div class="choice">
-								<ul>
-									<li>Москва</li>
-									<li>Москва</li>
-									<li>Москва</li>
-									<li>Москва</li>
-									<li>Москва</li>
-								</ul>
+			<div class="mobile">
+				<i class="fa fa-navicon" id="show-nav"></i>
+				<div class="image">
+					<img src="img/logo.png" alt="Logo">
+				</div>
+				<div class="tools">
+					<a class="show-top-search-form">
+						<img src="img/magnifying-glass.png" alt="Поиск">
+					</a>
+					<a href="#">
+						<img src="img/shopping-basket-3.png" alt="Корзина">
+					</a>
+
+					<div class="search-form top-search-form">
+						<form>
+							<div class="input-wrapper">
+								<input type="text" placeholder="Поиск">
+								<img src="img/magnifying-glass.png" alt="поиск" class="search-button">
 							</div>
-						</div>
+						</form>
 					</div>
 
-					<div class="menu-wrapper">
-						<ul class="menu">
-							<li class="active">
-								<a href="#">
-									<img src="img/taxi-service 2-w.png" alt="Доставка">
-									Доставка
-								</a>
-							</li>
-							<li><a href="#">Дилеры</a></li>
-							<li><a href="#">Где купить</a></li>
-							<li><a href="#">Контакты</a></li>
-						</ul>
-					</div>
+				</div>
+
+				<div class="slide-menu" id="slide-menu">
+					<ul class="list">
+						<li><a href="#">Главная</a></li>
+						<hr>
+						<li><a href="#">О компании</a></li>
+						<li class="deploy-parent"><a>Каталог <i class="fa fa-angle-down"></i></a>
+							<ul class="deploy-child">
+								<li><a href="#">Еврокубы</a></li>
+								<li><a href="#">Баки</a></li>
+								<li><a href="#">Мусорные контейнеры</a></li>
+								<li><a href="#">Канистры</a></li>
+								<li><a href="#">Вазы</a></li>
+								<li><a href="#">Пластиковые формы</a></li>
+								<li><a href="#">Поддоны</a></li>
+								<li><a href="#">Ящики</a></li>
+								<li><a href="#">Паллеты</a></li>
+								<li><a href="#">Horeca</a></li>
+								<li><a href="#">Комплектующие</a></li>
+								<li><a href="#">Ванны</a></li>
+								<li><a href="#">Контейнер</a></li>
+								<li><a href="#">Ведра</a></li>
+								<li><a href="#">Лотки</a></li>
+								<li><a href="#">Кубоконтейнер</a></li>
+								<li><a href="#">Куботейнер</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Партнерам</a></li>
+						<li><a href="#">Контакты</a></li>
+						<li><a href="#">Доставка</a></li>
+						<li><a href="#">Дилеры</a></li>
+						<li><a href="#">Где купить</a></li>
+					</ul>
 				</div>
 			</div>
-		</div> 
-
-		<div class="menu-panel">
-			<div class="container">
-				<div class="row">
-					<div class="logo-and-menu">
-						<div class="logo-wrapper">
-							<img src="img/logo.png" alt="ПластСервис">
+			<div class="black-panel">
+				<div class="container">
+					<div class="row">
+						<div class="location-info">
+							<div class="lang">
+								<a href="#">EN<a> | <a href="#">RU</a>
+							</div>
+							<div class="town">
+								<span>Москва <i class="fa fa-angle-down"></i></span>
+								<div class="choice">
+									<ul>
+										<li>Москва</li>
+										<li>Москва</li>
+										<li>Москва</li>
+										<li>Москва</li>
+										<li>Москва</li>
+									</ul>
+								</div>
+							</div>
 						</div>
 
 						<div class="menu-wrapper">
-							<ul class="menu horizontal-menu">
-								<li id="company">О Компании</li>
-								<li id="catalogue">Каталог</li>
-								<li id="partners">Партнерам</li>
+							<ul class="menu">
+								<li class="active">
+									<a href="#">
+										<img src="img/taxi-service 2-w.png" alt="Доставка">
+										Доставка
+									</a>
+								</li>
+								<li><a href="#">Дилеры</a></li>
+								<li><a href="#">Где купить</a></li>
+								<li><a href="#">Контакты</a></li>
 							</ul>
+						</div>
+					</div>
+				</div>
+			</div> 
+
+			<div class="dark search"></div>	
+
+			<div class="menu-panel">
+				<div class="container">
+					<div class="row">
+						<div class="logo-and-menu">
+							<div class="logo-wrapper">
+								<img src="img/logo.png" alt="ПластСервис">
+							</div>
+
+							<div class="menu-wrapper">
+								<ul class="menu horizontal-menu">
+									<li id="company">О Компании</li>
+									<li id="catalogue">Каталог</li>
+									<li id="partners">Партнерам</li>
+								</ul>
 
 							<!-- 
 							ВЫПАДАЮЩИЕ МЕНЮ (submenu)
@@ -96,7 +158,7 @@
 								<div class="submenu company">
 									<ul class="horizontal-menu">
 										<li><a href="#">О Нас</a></li>
-										<li><a href="#">Пресс-служба</a></li>
+										<li><a href="#">Новости</a></li>
 										<li><a href="#">Наши партнеры</a></li>
 									</ul>
 								</div>
@@ -105,80 +167,80 @@
 
 						<div class="s-wrapper">
 							<div class="container">
-						<div class="submenu catalogue">
-							<div class="variety">
+								<div class="submenu catalogue">
+									<div class="variety">
 									<!-- 
 										Последний товар в каждой группе имеет число-индекс, чтобы различать группы.
 									-->
 									<!-- 1 -->
 									<div class="items-wrapper">
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
+											<img src="img/icons/ICONS_16.png" alt="Куботейнер">
 											Куботейнер
 										</a>
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
-											Куботейнер
+											<img src="img/icons/ICONS_15.png" alt="Куботейнер">
+											Еврокубы
 										</a>
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
-											Куботейнер
+											<img src="img/icons/ICONS_13.png" alt="Куботейнер">
+											Поддоны
 										</a>
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
-											Куботейнер
+											<img src="img/icons/ICONS_2.png" alt="Куботейнер">
+											Ящики
 										</a>
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
-											Куботейнер
+											<img src="img/icons/ICONS_4.png" alt="Куботейнер">
+											Баки
 										</a>
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
-											Куботейнер
+											<img src="img/icons/ICONS_6.png" alt="Куботейнер">
+											Horeca
 										</a>
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
-											Куботейнер
+											<img src="img/icons/ICONS_3.png" alt="Куботейнер">
+											Лотки
 										</a>
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
-											Куботейнер
+											<img src="img/icons/ICONS_17.png" alt="Куботейнер">
+											Мусорные контейнеры
 										</a>
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
-											Куботейнер
+											<img src="img/icons/ICONS_11.png" alt="Куботейнер">
+											Паллеты
 										</a>
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
-											Куботейнер
+											<img src="img/icons/ICONS_7.png" alt="Куботейнер">
+											Контейнер
 										</a>
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
-											Куботейнер
+											<img src="img/icons/ICONS_12.png" alt="Куботейнер">
+											Канистры
 										</a>
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
-											Куботейнер
+											<img src="img/icons/ICONS_8.png" alt="Куботейнер">
+											Комплектующие
 										</a>
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
-											Куботейнер
+											<img src="img/icons/ICONS_9.png" alt="Куботейнер">
+											Ведра
 										</a>
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
-											Куботейнер
+											<img src="img/icons/ICONS_1.png" alt="Куботейнер">
+											Для флористики
 										</a>
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
-											Куботейнер
+											<img src="img/icons/ICONS_5.png" alt="Куботейнер">
+											Ванны
 										</a>
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
-											Куботейнер
+											<img src="img/icons/ICONS_18.png" alt="Куботейнер">
+											Евроконтейнеры
 										</a>
 										<a class="item" href="#">
-											<img src="img/envelope.png" alt="Куботейнер">
-											Куботейнер 1
+											<img src="img/icons/ICONS_10.png" alt="Куботейнер">
+											Пластиковые формы
 										</a>
 										<a href="#" class="item full">Смотреть весь каталог 
 											<i class="fa fa-angle-right"></i>
@@ -191,8 +253,8 @@
 						</div>
 					</div>
 
-							<div class="s-wrapper">
-							<div class="container">
+					<div class="s-wrapper">
+						<div class="container">
 							<div class="submenu partners">
 								<div class="image"><img src="img/partners.jpg" alt="Партерам"></div>
 								<div class="info">
@@ -204,107 +266,166 @@
 							</div>
 						</div>
 					</div>
-						</div>
-					</div>
-
-					<div class="tools-wrapper">
-						<ul class="horizontal-menu">
-							<li><a href="#"><img src="img/magnifying-glass.png" alt="Поиск"> Поиск</a></li>
-							<li><a href="#" class="hint-trigger">
-								<img src="img/telephone.png" alt="Телефон"> 
-								+7 495 741 14 14 <i class="fa fa-angle-down"></i></a>
-								<div class="hint">
-									+7 495 741 14 14 <br>
-									Email: info@tarlast.ru
-								</div>
-							</li>
-							<li><a href="#">
-								<img src="img/shopping-basket-3.png" alt="Корзина"> 
-								Корзина
-							</a></li>
-						</ul>
-					</div>
 				</div>
+			</div>
+
+			<div class="tools-wrapper">
+				<ul class="horizontal-menu">
+					<li><a class="show-top-search-form"><img src="img/magnifying-glass.png" alt="Поиск"> Поиск</a>
+						<div class="search-form top-search-form">
+							<form>
+								<div class="input-wrapper">
+									<input type="text" placeholder="Поиск">
+									<img src="img/magnifying-glass.png" alt="поиск" class="search-button">
+								</div>
+							</form>
+						</div>
+					</li>
+					<li><a class="hint-trigger">
+						<img src="img/telephone.png" alt="Телефон"> 
+						+7 495 741 14 14 <i class="fa fa-angle-down"></i></a>
+						<div class="hint">
+							+7 495 741 14 14 <br>
+							Email: info@tarlast.ru
+						</div>
+					</li>
+					<li><a href="#">
+						<img src="img/shopping-basket-3.png" alt="Корзина"> 
+						Корзина
+					</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
+</div>
+</div>
+	
+<div class="dark menu"></div>
 
-		<div class="variety-menu">
-			<div class="container">
-				<div class="row">
-					<ul class="menu horizontal-menu">
-						<li><a href="#">Ящики</a></li>
-						<li><a href="#">Евроконтейнеры</a></li>
-						<li><a href="#">Еврокубы</a></li>
-						<li><a href="#">Канистры</a></li>
-						<li><a href="#">Комплектующие</a></li>
-						<li><a href="#">Куботейнер</a></li>
-						<li><a href="#">Horeca</a></li>
-						<li><a href="#">Лотки</a></li>
-						<li><a href="#">Мусорные контейнеры</a></li>
-						<li><a href="#" class="hint-trigger">Еще <i class="fa fa-angle-down"></i></a>
-							<div class="hint">
-								<ul class="menu">
-									<li><a href="#">Контейнеры</a></li>
-									<li><a href="#">Вазы</a></li>
-									<li><a href="#">Пластиковые формы</a></li>
-									<li><a href="#">Поддоны</a></li>
-									<li><a href="#">Паллеты</a></li>
-									<li><a href="#">Комплектующие</a></li>
-									<li><a href="#">Ванны</a></li>
-									<li><a href="#">Ведра</a></li>
-									<li><a href="#">Баки</a></li>
-								</ul>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<div id="dark"></div>
-
-	<section class="carousel owl-carousel slider">
-		<div class="item-wrapper">
-			<div class="container">
-				<div class="row paddings-lr">
-					<h2>Огромный Выбор - Ящики</h2>
-					<h4>Все категории ящиков для различных производств</h4>
-					<div class="nav-btn-wrapper">
-						<a href="#" class="button b-red">Подробнее</a>
-						<div class="nav nav-prev"><i class="fa fa-angle-left"></i></div>
-						<div class="nav nav-next"><i class="fa fa-angle-right"></i></div>
+<div class="variety-menu">
+	<div class="container">
+		<div class="row">
+			<ul class="menu horizontal-menu">
+				<li><a href="#">Ящики</a></li>
+				<li><a href="#">Евроконтейнеры</a></li>
+				<li><a href="#">Еврокубы</a></li>
+				<li><a href="#" class="small">Канистры</a></li>
+				<li><a href="#" class="tablets">Комплектующие</a></li>
+				<li><a href="#" class="tablets">Куботейнер</a></li>
+				<li><a href="#" class="tablets">Horeca</a></li>
+				<li><a href="#" class="medium">Лотки</a></li>
+				<li><a href="#" class="medium">Мусорные контейнеры</a></li>
+				<li><a href="#" class="hint-trigger">Еще <i class="fa fa-angle-down"></i></a>
+					<div class="hint">
+						<ul class="menu">
+							<li><a href="#" class="tablets">Комплектующие</a></li>
+							<li><a href="#" class="tablets">Куботейнер</a></li>
+							<li><a href="#" class="tablets">Horeca</a></li>
+							<li><a href="#" class="tablets medium">Лотки</a></li>
+							<li><a href="#" class="tablets medium">Мусорные контейнеры</a></li>
+							<li><a href="#">Контейнеры</a></li>
+							<li><a href="#">Вазы</a></li>
+							<li><a href="#">Пластиковые формы</a></li>
+							<li><a href="#">Поддоны</a></li>
+							<li><a href="#">Паллеты</a></li>
+							<li><a href="#">Комплектующие</a></li>
+							<li><a href="#">Ванны</a></li>
+							<li><a href="#">Ведра</a></li>
+							<li><a href="#">Баки</a></li>
+						</ul>
 					</div>
-				</div>
-			</div>
-			<div class="hover-item">
-				<img src="img/red.png" alt="">
-			</div>
+				</li>
+			</ul>
 		</div>
+	</div>
+</div>
+</section>
 
-		<div class="item-wrapper blue">
-			<div class="container">
-				<div class="row paddings-lr">
-					<h2>Огромный Выбор - Ящики</h2>
-					<h4>Все категории ящиков для различных производств</h4>
-					<div class="nav-btn-wrapper">
-						<a href="#" class="button b-trans">Подробнее</a>
-						<div class="nav nav-prev"><i class="fa fa-angle-left"></i></div>
-						<div class="nav nav-next"><i class="fa fa-angle-right"></i></div>
-					</div>
-				</div>
-			</div>
-			<div class="hover-item">
-				<img src="img/yel-g.png" alt="">
-			</div>
-		</div>
-	</section>
-
-	<section class="catalogue-news">
+<section class="carousel owl-carousel slider">
+	<div class="item-wrapper">
 		<div class="container">
-			<div class="row title-nav paddings-lr">
-				<h2>Новинки в каталоге продукции</h2>
+			<div class="row paddings-lr">
+				<h2>Огромный Выбор - Ящики</h2>
+				<h4>Все категории ящиков для различных производств</h4>
+				<div class="nav-btn-wrapper">
+					<a href="#" class="button b-red">Подробнее</a>
+					<div class="nav nav-prev"><i class="fa fa-angle-left"></i></div>
+					<div class="nav nav-next"><i class="fa fa-angle-right"></i></div>
+				</div>
+			</div>
+		</div>
+		<div class="hover-item">
+			<img src="img/red.png" alt="">
+		</div>
+	</div>
+
+	<div class="item-wrapper blue">
+		<div class="container">
+			<div class="row paddings-lr">
+				<h2>Огромный Выбор - Ящики</h2>
+				<h4>Все категории ящиков для различных производств</h4>
+				<div class="nav-btn-wrapper">
+					<a href="#" class="button b-trans">Подробнее</a>
+					<div class="nav nav-prev"><i class="fa fa-angle-left"></i></div>
+					<div class="nav nav-next"><i class="fa fa-angle-right"></i></div>
+				</div>
+			</div>
+		</div>
+		<div class="hover-item">
+			<img src="img/yel-g.png" alt="">
+		</div>
+	</div>
+</section>
+
+<section class="catalogue-news">
+	<div class="container">
+		<div class="row title-nav paddings-lr">
+			<h2>Новинки в каталоге продукции</h2>
+			<div class="nav-wrapper pc-only">
+				<div class="nav nav-prev">
+					<i class="fa fa-angle-left"></i>
+				</div><div class="nav nav-next">
+					<i class="fa fa-angle-right"></i>
+				</div>
+			</div>
+		</div>
+		<div class="row owl-carousel catalogue-carousel paddings-lr-18">
+			<div class="item">
+				<a href="#"><div class="image" style="background-image: url(img/product1.png)">
+					<span class="tip">Новинка</span>
+				</div></a>	<!-- SAME LINKS -->
+				<a href="#"><h4>116 руб.</h4></a>	<!-- SAME LINKS -->
+				<a href="#"><p>Logic store Складной лоток <br> 350x225x150</p></a>	<!-- SAME LINKS -->
+				<div class="button-wrapper">
+					<a href="#" class="button">Подробнее</a>	<!-- SAME LINKS -->
+				</div>
+			</div>
+
+			<div class="item">
+				<a href="#"><div class="image" style="background-image: url(img/product2.png)">
+					<span class="tip">Новинка</span>
+				</div></a> <!-- SAME LINKS -->
+				<a href="#"><h4>116 руб.</h4></a> <!-- SAME LINKS -->
+				<a href="#"><p>Logic store Складной лоток <br> 350x225x150</p></a> <!-- SAME LINKS -->
+				<div class="button-wrapper">
+					<a href="#" class="button">Подробнее</a>  <!-- SAME LINKS -->
+				</div>
+			</div>
+
+			<div class="item">
+				<a href="#"><div class="image" style="background-image: url(img/product3.png)">
+					<span class="tip">Новинка</span>
+				</div></a> <!-- SAME LINKS -->
+				<a href="#"><h4>116 руб.</h4></a> <!-- SAME LINKS -->
+				<a href="#"><p>Logic store Складной лоток <br> 350x225x150</p></a> <!-- SAME LINKS -->
+				<div class="button-wrapper">
+					<a href="#" class="button">Подробнее</a>  <!-- SAME LINKS -->
+				</div>
+			</div>
+		</div>
+
+		<div class="mobile-only">
+			<div class="row title-nav">
 				<div class="nav-wrapper">
 					<div class="nav nav-prev">
 						<i class="fa fa-angle-left"></i>
@@ -313,193 +434,160 @@
 					</div>
 				</div>
 			</div>
-			<div class="row owl-carousel catalogue-carousel paddings-lr-18">
-				<div class="item">
-					<div class="image" style="background-image: url(img/product1.png)">
-						<span class="tip">Новинка</span>
-					</div>
-					<h4>116 руб.</h4>
-					<p>Logic store Складной лоток <br> 350x225x150</p>
-					<div class="button-wrapper">
-						<a href="#" class="button">Подробнее</a>
-					</div>
-				</div>
-
-				<div class="item">
-					<div class="image" style="background-image: url(img/product2.png)">
-						<span class="tip">Новинка</span>
-					</div>
-					<h4>116 руб.</h4>
-					<p>Logic store Складной лоток <br> 350x225x150</p>
-					<div class="button-wrapper">
-						<a href="#" class="button">Подробнее</a>
-					</div>
-				</div>
-
-				<div class="item">
-					<div class="image" style="background-image: url(img/product3.png)">
-						<span class="tip">Новинка</span>
-					</div>
-					<h4>116 руб.</h4>
-					<p>Logic store Складной лоток <br> 350x225x150</p>
-					<div class="button-wrapper">
-						<a href="#" class="button">Подробнее</a>
-					</div>
-				</div>
-			</div>
 		</div>
-	</section>
-	
-	<section class="know-more bg">
-		<div class="container paddings-lr">
-			<div class="row">
-				<p>ПластСервис – крупнейшее российское производственное предприятие по выпуску изделий из пластмасс.</p>
-				<a href="#" class="button b-red">Узнать больше</a>
-			</div>
-		</div>
-	</section>
+	</div>
+</section>
 
-	<section class="news">
-		<div class="container">
-			<div class="row title paddings-lr">
-				<h2>Новости</h2>
-				<h3><a href="#">Все новости</a></h3>
-			</div>
-			<div class="row paddings-lr-40">
-				<div class="col-lg-4 item-wrapper">
-					<div class="item">
-						<h3>Акция для цветочников</h3>
-						<p>Спешите принять участие в акции, количество подарков ограничено</p>
-						<div class="info">
-							<a href="#">Узнать больше<i class="fa fa-angle-right"></i></a>
-							<span class="date">28.06.2018</span>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 item-wrapper">
-					<div class="item">
-						<h3>В наличии на складе</h3>
-						<p>В производственной компании «ТАРПЛАСТ» вы можете приобрести пластиковую тару и ...</p>
-						<div class="info">
-							<a href="#">Узнать больше<i class="fa fa-angle-right"></i></a>
-							<span class="date">28.06.2018</span>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 item-wrapper">
-					<div class="item">
-						<h3>Скидка при онлайн заказе</h3>
-						<p>Уважаемые посетители сайта и клиенты компании «ТАРПЛАСТ», рады сообщить вам приятную новость!</p>
-						<div class="info">
-							<a href="#">Узнать больше<i class="fa fa-angle-right"></i></a>
-							<span class="date">28.06.2018</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="blog">
-		<div class="container">
-			<div class="row title paddings-lr">
-				<h2>Блог</h2>
-			</div>
-		</div>
+<section class="know-more bg">
+	<div class="container paddings-lr">
 		<div class="row">
-			<div class="item white" style="background-image: url(img/blog1.png)">
-				<div>
-					<h4>Пластиковые ящики для хлеба и кондитерских изделий</h4>
-					<p>Качественная пластиковая тара компании Тарпласт в Мосвке зарекомендовала себя на ...</p>
-				</div>
-				<a href="#" class="button">Узнать больше</a>
-			</div>
-
-			<div class="item" style="background-image: url(img/blog2.png)">
-				<div>
-					<h4>Ящик для молочной продукции</h4>
-					<p>Абсолютно гладкая пластиковая тара компании надежно защищает тонкую их упаковку от ...</p>
-				</div>
-				<a href="#" class="button">Узнать больше</a>
-			</div>
-
-			<div class="item" style="background-image: url(img/blog3.png)">
-				<div>
-					<h4>Ящик для мясной продукции</h4>
-					<p>Пластиковый ящик для мясной продукции – это специальная тара, которая делает транспортную ...</p>
-				</div>
-				<a href="#" class="button">Узнать больше</a>
-			</div>
+			<p>ПластСервис – крупнейшее российское производственное предприятие по выпуску изделий из пластмасс.</p>
+			<a href="#" class="button b-red">Узнать больше</a>
 		</div>
-	</section>
+	</div>
+</section>
 
-	<section class="know-more questions">
-		<div class="container">
-			<div class="row title paddings-lr">
-				<h3>Появились вопросы?</h3>
-			</div>
-			<div class="row paddings-lr">
-				<p>Если вы хотите связаться с нами, у вас есть предложение о партнерстве или иные вопросы, пожалуйста, нажмите кнопку ниже и оставьте заявку. Нашии менеджеры свяжутся с вами в кратчайшие сроки.</p>
-				<a href="#" class="button b-red">Отправить заявку</a>
-			</div>
+<section class="news">
+	<div class="container">
+		<div class="row title paddings-lr">
+			<h2>Новости</h2>
+			<h3><a href="#">Все новости</a></h3>
 		</div>
-	</section>
-
-	<section class="footer">
-		<div class="container">
-			<div class="row paddings-lr">
-				<div class="col-md-3 item one">
-					<h3>Пластсервис</h3>
-					<ul>
-						<li><a href="#">О компании</a></li>
-						<li><a href="#">Доставка и Оплата</a></li>
-						<li><a href="#">Дилеры</a></li>
-						<li><a href="#">Новости</a></li>
-						<li><a href="#">Где купить</a></li>
-						<li><a href="#">Контакты</a></li>
-						<li><a href="#">Карта сайта</a></li>
-					</ul>
-				</div>
-				<div class="col-md-5 item two">
-					<h3>Мы в соцсетях</h3>
-					<div class="socials">
-						<div class="item">
-							<a href="#"><i class="fa fa-instagram"></i></a>
-						</div>
-						<div class="item">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-						</div>
-						<div class="item">
-							<a href="#"><i class="fa fa-vk"></i></a>
-						</div>
-						<div class="item">
-							<a href="#"><i class="fa fa-twitter"></i></a>
-						</div>
+		<div class="row paddings-lr-40">
+			<div class="col-lg-4 item-wrapper">
+				<div class="item">
+					<h3>Акция для цветочников</h3>
+					<p>Спешите принять участие в акции, количество подарков ограничено</p>
+					<div class="info">
+						<a href="#">Узнать больше<i class="fa fa-angle-right"></i></a>
+						<span class="date">28.06.2018</span>
 					</div>
-
-					<h3>Партнерам</h3>
-					<p><a href="#">Стать партнером ПластСервис</a></p>
-					<br>
-					<p>Вы также можете перейти на <a href="#">мобильную версию сайта</a>.</p>
-				</div>
-				<div class="col-md-4 item three">
-					<h3>Контакты</h3>
-					<p><img src="img/placeholder.png" alt="Адрес"> +7(495)741-14-14</p>
-					<p><img src="img/phone-call.png" alt="Адрес"> г. Москва, ул. Коштоянца д. 12, оф. 1</p>
-					<p><img src="img/envelope.png" alt="Адрес"> info@tarplast.ru</p>
-					<br>
-					<p><img src="img/clock.png" alt="Адрес"> Понедельник - Пятница: 9:00 - 18:00</p>
 				</div>
 			</div>
-			<div class="row low paddings-lr-70">
-				<p><a href="#">Вакансии</a></p>
-				<p>© 2018 ПЛАСТСЕРВИС. ВСЕ ПРАВА СОБЛЮДЕНЫ.</p>
+
+			<div class="col-lg-4 item-wrapper">
+				<div class="item">
+					<h3>В наличии на складе</h3>
+					<p>В производственной компании «ТАРПЛАСТ» вы можете приобрести пластиковую тару и ...</p>
+					<div class="info">
+						<a href="#">Узнать больше<i class="fa fa-angle-right"></i></a>
+						<span class="date">28.06.2018</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 item-wrapper">
+				<div class="item">
+					<h3>Скидка при онлайн заказе</h3>
+					<p>Уважаемые посетители сайта и клиенты компании «ТАРПЛАСТ», рады сообщить вам приятную новость!</p>
+					<div class="info">
+						<a href="#">Узнать больше<i class="fa fa-angle-right"></i></a>
+						<span class="date">28.06.2018</span>
+					</div>
+				</div>
 			</div>
 		</div>
-	</section>
-	<!-- end mandatory -->
+	</div>
+</section>
+
+<section class="blog">
+	<div class="container">
+		<div class="row title paddings-lr">
+			<h2>Блог</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="item white">
+			<div>
+				<h4>Пластиковые ящики для хлеба и кондитерских изделий</h4>
+				<p>Качественная пластиковая тара компании Тарпласт в Мосвке зарекомендовала себя на ...</p>
+			</div>
+			<a href="#" class="button">Узнать больше</a>
+		</div>
+
+		<div class="item">
+			<div>
+				<h4>Ящик для молочной продукции</h4>
+				<p>Абсолютно гладкая пластиковая тара компании надежно защищает тонкую их упаковку от ...</p>
+			</div>
+			<a href="#" class="button">Узнать больше</a>
+		</div>
+
+		<div class="item">
+			<div>
+				<h4>Ящик для мясной продукции</h4>
+				<p>Пластиковый ящик для мясной продукции – это специальная тара, которая делает транспортную ...</p>
+			</div>
+			<a href="#" class="button">Узнать больше</a>
+		</div>
+	</div>
+</section>
+
+<section class="know-more questions">
+	<div class="container">
+		<div class="row title paddings-lr-40">
+			<h3>Появились вопросы?</h3>
+		</div>
+		<div class="row paddings-lr-40">
+			<p>Если вы хотите связаться с нами, у вас есть предложение о партнерстве или иные вопросы, пожалуйста, нажмите кнопку ниже и оставьте заявку. Нашии менеджеры свяжутся с вами в кратчайшие сроки.</p>
+			<a href="#" class="button b-red">Отправить заявку</a>
+		</div>
+	</div>
+</section>
+
+<section class="footer">
+	<div class="container">
+		<div class="row paddings-lr-40">
+			<div class="col-md-3 item one pc-only">
+				<h3>Пластсервис</h3>
+				<ul>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Доставка и Оплата</a></li>
+					<li><a href="#">Дилеры</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Где купить</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">Карта сайта</a></li>
+				</ul>
+			</div>
+			<div class="col-md-5 item two">
+				<h3>Мы в соцсетях</h3>
+				<div class="socials">
+					<div class="item">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+					<div class="item">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+					</div>
+					<div class="item">
+						<a href="#"><i class="fa fa-vk"></i></a>
+					</div>
+					<div class="item">
+						<a href="#"><i class="fa fa-twitter"></i></a>
+					</div>
+				</div>
+				<hr class="wider mobile-only">
+				<h3>Партнерам</h3>
+				<p><a href="#">Стать партнером ПластСервис</a></p>
+				<br>
+				<!-- <p>Вы также можете перейти на <a href="#">мобильную версию сайта</a>.</p> -->
+			</div>
+			<div class="col-md-4 item three pc-only">
+				<h3>Контакты</h3>
+				<p><img src="img/placeholder.png" alt="Адрес"> +7(495)741-14-14</p>
+				<p><img src="img/phone-call.png" alt="Адрес"> г. Москва, ул. Коштоянца д. 12, оф. 1</p>
+				<p><img src="img/envelope.png" alt="Адрес"> info@tarplast.ru</p>
+				<br>
+				<p><img src="img/clock.png" alt="Адрес"> Понедельник - Пятница: 9:00 - 18:00</p>
+			</div>
+		</div>
+		<div class="row low paddings-lr pc-only">
+			<p><a href="#">Вакансии</a></p>
+			<p>© 2018 ПЛАСТСЕРВИС. ВСЕ ПРАВА СОБЛЮДЕНЫ.</p>
+		</div>
+	</div>
+</section>
+<!-- end mandatory -->
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -511,6 +599,7 @@
 <script src="libs/jquery.equalheights.min.js"></script>
 <script src="libs/jquery.sticky.js"></script>
 <script src="js/common.js"></script>
+<script src="js/index.js"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

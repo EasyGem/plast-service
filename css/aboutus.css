@@ -1,0 +1,85 @@
+.info-block .row.menu-of-sections ul li {
+  padding: 17px 0px 22px 0px;
+  margin-right: 111px;
+  position: relative; }
+  .info-block .row.menu-of-sections ul li.active:after {
+    content: "";
+    position: absolute;
+    width: 130%;
+    height: 3px;
+    background-color: #000;
+    bottom: -2px;
+    left: -15%; }
+  .info-block .row.menu-of-sections ul li:last-child {
+    margin-right: 0; }
+  .info-block .row.menu-of-sections ul li a {
+    font-size: 28px;
+    font-weight: 500;
+    transition: .25s ease-in; }
+    .info-block .row.menu-of-sections ul li a:hover {
+      color: #666; }
+
+.info-block .row.info {
+  padding-top: 49px; }
+  .info-block .row.info .bg-block {
+    background-image: url(../img/company.png);
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    min-height: 589px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 50px 77px; }
+    .info-block .row.info .bg-block h2 {
+      font-size: 52px;
+      font-weight: 400;
+      margin-bottom: 29px; }
+    .info-block .row.info .bg-block p {
+      margin: 0;
+      font-size: 40px;
+      font-weight: 400; }
+  .info-block .row.info .description {
+    padding: 50px 77px 37px 77px; }
+    .info-block .row.info .description p {
+      font-size: 24px;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 24px; }
+
+.info-block .row.advantages {
+  padding-top: 65px;
+  padding-bottom: 47px;
+  flex-wrap: no-wrap;
+  justify-content: space-between; }
+  .info-block .row.advantages .text {
+    flex: 0 1 320px; }
+    .info-block .row.advantages .text h2 {
+      font-size: 31px;
+      font-weight: 500;
+      margin: 0 0 18px 0; }
+  .info-block .row.advantages .list {
+    flex: 0 1 700px;
+    padding-left: 30px; }
+    .info-block .row.advantages .list ul {
+      padding: 0; }
+      .info-block .row.advantages .list ul li {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 16px;
+        color: #54be94; }
+        .info-block .row.advantages .list ul li span {
+          color: #000; }
+      .info-block .row.advantages .list ul.hidden {
+        display: none; }
+    .info-block .row.advantages .list #read-more {
+      color: #4a90e2;
+      font-size: 20px;
+      cursor: pointer;
+      padding-top: 12px; }
+
+.info-block hr {
+  position: relative;
+  z-index: 1; }

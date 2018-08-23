@@ -1,0 +1,147 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1439px) {
+	.blog-news-catalogue .row.catalogue .item {
+		margin: 0 5px;
+	}
+	.blog-page .row.info .advantages .item h4 {
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width : 1200px) {
+	.blog-news-catalogue hr {
+			margin: 0 -30px;
+	}
+	.blog-page hr {
+			margin: 0 -30px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.blog-page .row.banner-wrapper .banner {
+		background-position: center center;
+	}
+	.blog-page .row.info .advantages {
+		flex-direction: column;
+	}
+	.blog-page .row.info .advantages .item{
+		width: 100%;
+		margin: 10px 0;
+	}
+	.blog-page .row.info .info-wrapper {
+		padding-left: 45px;
+		padding-right: 45px;
+	}
+	.blog-news-catalogue .row.catalogue {
+		flex-wrap: wrap;
+	}
+	.blog-news-catalogue .row.catalogue .item {
+		flex: 1 1 40%;
+	}
+	.blog-news-catalogue hr{
+		margin: 0 -30px 0 -30px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.blog-page .row.info .info-wrapper {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 576px) {
+	.blog-page .row.title{
+		padding: 0 15px;
+	}
+	.blog-page .row.title h2 {
+		width: 100%;
+		text-align: center;
+	}
+	.blog-page .row.banner-wrapper .banner {
+		min-height: 400px;
+		padding: 30px 15px;
+	}
+	.blog-page .row.banner-wrapper .banner h2{
+		text-align: center;
+		width: 100%;
+		font-size: 28px;
+	}
+	.blog-page .row.banner-wrapper .banner .button{
+		margin: 0 auto;
+	}
+	.blog-page .row.info {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.blog-news-catalogue .row.catalogue .item {
+		flex: 1 1 100%;
+		border: none;
+	}
+	.blog-news-catalogue .row.catalogue .item:hover {
+		border: none;
+	}
+	.blog-news-catalogue .row.title {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.blog-page .row.info .advantages .item {
+		padding: 15px 15px;
+	}
+	.blog-page h2 {
+		font-size: 34px;
+	}
+	.blog-page .row.info .info-wrapper p {
+		font-size: 16px;
+	}
+	.blog-page .row.info .advantages .item p {
+		font-size: 14px;
+	}
+	.blog-news-catalogue .row.title h2 {
+		margin-bottom: 10px;
+	}
+	.blog-news-catalogue .row.catalogue .item .button-wrapper{
+		display: none;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+@media only screen and (min-width : 1440px) {
+
+}
