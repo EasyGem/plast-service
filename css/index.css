@@ -46,7 +46,7 @@
           border: none; }
     .carousel .item-wrapper.blue {
       color: #fff;
-      background-image: url(../img/m-slide-blue-bg.jpg); }
+      background-image: url(../img/slide-blue-bg.jpg); }
       .carousel .item-wrapper.blue .hover-item img {
         width: 640px; }
         .carousel .item-wrapper.blue .hover-item img:hover {
