@@ -6,7 +6,7 @@ $(document).ready(function() {
 		items: 1,
 		dots: true,
 		dotClass: "dot",
-		autoplay: false,
+		autoplay: true,
 		autoplayTimeout:7500,
 		URLhashListener:true
 	});
