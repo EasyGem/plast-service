@@ -543,7 +543,7 @@ a {
 .know-more.questions {
   background-color: #fff;
   color: #000;
-  border: solid 1px #4a4a4a;
+  border: solid 1px #d0d0d0;
   border-left: none;
   border-right: none;
   padding: 37px 0 48px 0; }
@@ -563,7 +563,7 @@ a {
         margin: 0; }
     .know-more.questions .row p {
       color: #000;
-      font-size: 18px;
+      font-size: 16px;
       flex: 0 1 900px;
       margin: 15px 0 0 0; }
     .know-more.questions .row .button {

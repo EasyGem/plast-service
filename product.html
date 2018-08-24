@@ -364,9 +364,12 @@
 		<hr>
 		<div class="row product-wrapper">
 			<div class="preview">
-				<div class="owl-carousel product-carousel">
+				<div class="owl-carousel product-carousel" data-slider-id="1">
 					<img src="img/product-red.jpg" alt="">
 					<img src="img/product-red.jpg" alt="">
+				</div>
+				<div class="thumbnails">
+					<div class="owl-thumbs" data-slider-id="1"></div>
 				</div>
 			</div>
 			<div class="info">
@@ -380,27 +383,41 @@
 					<p>Вес <span>0, 349 кг</span></p>
 				</div>
 				<form> <!-- ADD TO CART -->
-				<p>Цвет</p>
-				<div class="control-group">
-					<label class="control control-radio">
-	            Белый <span class="block"></span>
-	            <input type="radio" name="color" checked="checked" value="white"/>
-	            <div class="control_indicator"></div>
-	        </label>
-	        <label class="control control-radio">
-	           	Зеленый <span class="block green"></span>
-	            <input type="radio" name="color" value="green"/>
-	            <div class="control_indicator"></div>
-	        </label>
-				</div>
-				<input type="button" class="button" value="Добавить в корзину">
+					<p>Цвет</p>
+					<div class="control-group">
+						<label class="control control-radio">
+							Белый <span class="block"></span>
+							<input type="radio" name="color" checked="checked" value="white"/>
+							<div class="control_indicator"></div>
+						</label>
+						<label class="control control-radio">
+							Зеленый <span class="block green"></span>
+							<input type="radio" name="color" value="green"/>
+							<div class="control_indicator"></div>
+						</label>
+					</div>
+					<input type="button" class="button" value="Добавить в корзину">
 				</form>
-				<p>Способы доставки и оплаты</p>
+				<p>Способы доставки и оплаты <br> <a href="#">Подробнее</a></p>
 			</div>
 		</div>
 	</div>
 </section>
 
+<div class="product-info">
+	<div class="container">
+		<div class="row paddings-lr menu-of-sections">
+			<ul class="horizontal-menu">
+				<li class="active"><a href="#">Описание товара</a></li>
+				<li><a href="#">Отзывы</a></li>
+			</ul>
+		</div>
+		<hr>
+		<div class="row info desc paddings-lr">
+			
+		</div>
+	</div>
+</div>
 
 <section class="know-more questions">
 	<div class="container">
@@ -476,6 +493,7 @@
 <![endif]-->
 <script src="libs/jquery/jquery.min.js"></script>
 <script src="libs/owl-carousel/owl.carousel.min.js"></script>
+<script src="libs/owl.carousel2.thumbs.min.js"></script>
 <script src="libs/jquery.sticky.js"></script>
 <script src="js/common.js"></script>
 <script src="js/product.js"></script>

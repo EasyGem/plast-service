@@ -1,15 +1,21 @@
 .carousel {
   margin-top: 30px;
   width: 100%;
+  .container {
+    padding: 0;
+  }
   .item-wrapper {
     min-height: 525px;
     background-size: cover;
     background-position: center center;
     display: flex;
     align-items: center;
-    padding: 100px 0;
+    padding: 100px 15px;
     position: relative;
     background-image: url(../img/slide-yellow-bg.jpg);
+    .container {
+      padding: 0 15px;
+    }
     .row {
       position: relative;
       z-index: 2;
@@ -49,7 +55,7 @@
     }
     &.blue {
       color: #fff;
-      background-image: url(../img/slide-blue-bg.jpg);
+      background-image: url(../img/m-slide-blue-bg.jpg);
       .hover-item {
         img {
           width: 640px;
@@ -253,7 +259,7 @@
       p {
         margin: 0;
         padding: 10px 0;
-        font-size: 18px;
+        font-size: 16px;
         color: #848484;
       }
       .info {
@@ -261,6 +267,9 @@
         justify-content: space-between;
         align-items: center;
         padding: 10px 0;
+        .date {
+          color: #bbbbbb;
+        }
         a {
           color: #11519b; 
           font-size: 18px;
