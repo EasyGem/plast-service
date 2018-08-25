@@ -34,6 +34,7 @@
     justify-content: flex-start;
     border-bottom: solid 1px #e1e1e1; }
     .news-block .row.news-wrapper .item p.text {
+      display: none;
       font-size: 16px;
       color: #666;
       margin-top: 0;
@@ -49,6 +50,7 @@
       font-size: 24px;
       font-weight: 500; }
     .news-block .row.news-wrapper .item a.read-more {
+      cursor: pointer;
       font-size: 16px;
       line-height: 1.38;
       color: #4a90e2; }
