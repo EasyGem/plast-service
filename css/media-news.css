@@ -5,10 +5,7 @@
 
 }
 @media only screen and (max-width : 1200px) {
-	.info-block .row.info .description p {
-		font-size: 20px;
-	}
-	.info-block hr {
+	.news-block hr {
 		position: relative;
 		z-index: 1;
 		margin: 0 -30px;
@@ -17,70 +14,48 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.info-block .row.info .bg-block {
-		min-height: 480px;
-	}
-	.info-block .row.info .bg-block p {
-		font-size: 28px;
-	}
-	.info-block .row.advantages {
-		padding-top: 15px;
-	}
+	
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.info-block .row.menu-of-sections ul li a {
+	.news-block .row.menu-of-sections ul li a {
 		font-size: 22px;
 	}
-	.info-block hr {
+	.news-block hr {
 		position: relative;
 		z-index: 1;
 		margin: 0 -30px;
 	}
-	.info-block .row.menu-of-sections ul li {
+	.news-block .row.menu-of-sections ul li {
 		margin-right: 50px;
 	}
-	.info-block .row.info .description {
+	.news-block .row.info .description {
 		padding: 30px 15px;
 	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 576px) {
-	.info-block .menu-of-sections {
+	.news-block .menu-of-sections {
 		padding: 0 15px;
 	}
-	.info-block .row.info .bg-block {
-		padding: 30px 15px;
-		min-height: 0;
-	}
-	.info-block .row.info .bg-block h2 {
-		font-size: 38px;
-	}
-	.info-block .row.info .bg-block p {
-		font-size: 18px;
-	}
-	.info-block .row.menu-of-sections ul li {
+	.news-block .row.menu-of-sections ul li {
 		margin-right: 25px;
 	}
-	.info-block .row.menu-of-sections ul li a {
+	.news-block .row.menu-of-sections ul li a {
 		font-size: 16px;
 	}
-	.info-block .row.info .description p {
-		font-size: 16px;
-		margin-bottom: 16px;
+	.news-block .row.news-wrapper {
+		padding-left: 15px;
+		padding-right: 15px;
 	}
-	.info-block .row.advantages .text h2 {
-		font-size: 24px;
+	.news-block .row.news-wrapper .item h3.title {
+		font-size: 20px;
 	}
-	.info-block .row{
-		padding: 0 15px;
-	}
-	.info-block .row.advantages .list ul li {
-		font-size: 16px;
-		font-weight: 400;
-		color: #54be94;
+	.news-block .nav {
+		font-size: 30px;
+		width: 40px;
 	}
 }
 

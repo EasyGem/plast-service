@@ -1,0 +1,74 @@
+.so-page h2 {
+  font-size: 34px; }
+
+.so-page .row.title h2 {
+  margin-top: 15px;
+  margin-bottom: 21px; }
+
+.so-page .row.info {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .so-page .row.info p {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 18px; }
+    .so-page .row.info p.grey {
+      color: #9b9b9b;
+      font-style: italic; }
+    .so-page .row.info p a {
+      color: #4a90e2; }
+
+.so-news-catalogue .row.title h2 {
+  font-size: 28px;
+  margin-bottom: 1px;
+  margin-top: 0;
+  font-weight: 400; }
+
+.so-news-catalogue .row.catalogue {
+  flex-wrap: nowrap;
+  margin: 44px 0 50px 0; }
+  .so-news-catalogue .row.catalogue .item {
+    flex: 1 1 25%;
+    margin: 0 19px;
+    padding: 10px 10px 0 10px;
+    border: solid 1px #fff; }
+    .so-news-catalogue .row.catalogue .item:first-child {
+      margin-left: 0; }
+    .so-news-catalogue .row.catalogue .item:last-child {
+      margin-right: 0; }
+    .so-news-catalogue .row.catalogue .item:hover {
+      border: solid 1px #979797; }
+      .so-news-catalogue .row.catalogue .item:hover .button-wrapper .button {
+        opacity: 1; }
+    .so-news-catalogue .row.catalogue .item .image {
+      height: 319px;
+      background-position: center center;
+      background-size: cover; }
+    .so-news-catalogue .row.catalogue .item h4 {
+      font-size: 24px;
+      font-weight: 500;
+      margin-top: 15px;
+      margin-bottom: 9px; }
+    .so-news-catalogue .row.catalogue .item p {
+      margin-top: 0;
+      margin-bottom: 16px;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: uppercase; }
+    .so-news-catalogue .row.catalogue .item .button-wrapper {
+      margin-left: -10px;
+      margin-right: -10px;
+      display: flex;
+      margin-top: 30px;
+      height: 52px; }
+      .so-news-catalogue .row.catalogue .item .button-wrapper .button {
+        border-radius: unset;
+        width: 100%;
+        text-align: center;
+        background-color: #f0f0f0;
+        color: #4a4a4a;
+        font-size: 16px;
+        transition: .25s ease-in;
+        opacity: 0; }
+        .so-news-catalogue .row.catalogue .item .button-wrapper .button:hover {
+          background-color: #ddd; }

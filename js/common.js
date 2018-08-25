@@ -7,6 +7,11 @@ $(document).ready(function() {
 	if($(document).width() >= 1200 || $(document).width() <= 576)
 		$(".sticky").sticky();
 
+	// POPUPS
+	$(".close-popup").click(function() {
+		$(this).parent().parent().hide();
+	});
+
 	// MENU HINTS
 
 	function showMenu(name) {

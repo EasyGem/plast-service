@@ -5,10 +5,7 @@
 
 }
 @media only screen and (max-width : 1200px) {
-	.info-block .row.info .description p {
-		font-size: 20px;
-	}
-	.info-block hr {
+	.wtb-block hr {
 		position: relative;
 		z-index: 1;
 		margin: 0 -30px;
@@ -17,70 +14,74 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.info-block .row.info .bg-block {
-		min-height: 480px;
+	.wtb-block .row.menu-of-sections ul li {
+		margin-right: 80px;
 	}
-	.info-block .row.info .bg-block p {
-		font-size: 28px;
+	.wtb-block .row.menu-of-sections ul li a {
+		font-size: 24px;
 	}
-	.info-block .row.advantages {
-		padding-top: 15px;
+	.wtb-block .row.info {
+		flex-wrap: wrap;
+	}
+	.wtb-block .row.info .half.where {
+		padding-right: 0px;
+	}
+	.wtb-block .row.info .half.map {
+		padding-left: 0px;
 	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.info-block .row.menu-of-sections ul li a {
-		font-size: 22px;
+	.wtb-block .row.menu-of-sections ul li a {
+		font-size: 20px;
 	}
-	.info-block hr {
+	.wtb-block .row.menu-of-sections ul li {
+		margin-right: 50px;
+	}
+	.wtb-block hr {
 		position: relative;
 		z-index: 1;
 		margin: 0 -30px;
-	}
-	.info-block .row.menu-of-sections ul li {
-		margin-right: 50px;
-	}
-	.info-block .row.info .description {
-		padding: 30px 15px;
 	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 576px) {
-	.info-block .menu-of-sections {
+	.wtb-block .menu-of-sections {
 		padding: 0 15px;
 	}
-	.info-block .row.info .bg-block {
-		padding: 30px 15px;
-		min-height: 0;
+	.wtb-block .row.menu-of-sections ul li {
+		margin-right: 20px;
 	}
-	.info-block .row.info .bg-block h2 {
-		font-size: 38px;
+	.wtb-block .row.menu-of-sections ul li a {
+		font-size: 14px;
+		text-align: center;
 	}
-	.info-block .row.info .bg-block p {
-		font-size: 18px;
+	.wtb-block .row.info .half.where {
+		padding-right: 15px;
+		padding-left: 15px;
 	}
-	.info-block .row.menu-of-sections ul li {
-		margin-right: 25px;
+	.wtb-block .row.info .half.map {
+		padding-right: 15px;
+		padding-left: 15px;
 	}
-	.info-block .row.menu-of-sections ul li a {
-		font-size: 16px;
+	.wtb-block .row.info .half h2 {
+		font-size: 32px;
 	}
-	.info-block .row.info .description p {
-		font-size: 16px;
-		margin-bottom: 16px;
-	}
-	.info-block .row.advantages .text h2 {
+	.wtb-block .row.info .half.where h3 {
 		font-size: 24px;
 	}
-	.info-block .row{
-		padding: 0 15px;
+	.wtb-block .row.info .half.where h4 {
+		font-size: 20px;
 	}
-	.info-block .row.advantages .list ul li {
+	.wtb-block .row.info .half.where p {
 		font-size: 16px;
-		font-weight: 400;
-		color: #54be94;
+		margin: 0 0 12px 0;
+	}
+	.wtb-block .row.info {
+		padding-top: 10px;
+		padding-bottom: 40px;
 	}
 }
 

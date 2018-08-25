@@ -10,6 +10,139 @@
   font-size: 38px;
   font-weight: 500;
 }
+.popup.notification {
+  padding: 0 15px;
+  position: absolute;
+  z-index: 20;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0,0,0,0.37);
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  display: none;
+  .wrapper {
+    h2 {
+      font-size: 32px;
+      font-weight: 500;
+      text-align: center;
+    }
+    top: 0;
+    box-shadow: 0 2px 4px 0 rgba(159, 159, 159, 0.5);
+    position: relative;
+    background-color: #ffffff;
+    padding: 17px 27px;
+    display: flex;
+    width: 450px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-height: 100%;
+    .wrapper-info {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      .image {
+        flex: 0 1 100px;
+        img {
+          width: 100%;
+        }
+      }
+      p {
+        color: #4a4a4a;
+        flex: 1 1 200px;
+        margin-left: 10px;
+        font-size: 14px;
+      }
+    }
+    .button {
+      padding: 8px 30px;
+      background-color: #4a90e2;
+      border: #4a90e2 1px solid;
+      color: #fff;
+      font-size: 14px;
+      border-radius: 0;
+      &:hover {
+        opacity: .75;
+      }
+      &.white {
+        margin-right: 5px;
+        background-color: unset;
+        border-color: #979797;
+        color: #4a4a4a;
+        &:hover {
+          color: #fff;
+          opacity: 1;
+          background-color: #979797;
+        }
+      }
+    }
+  }
+}
+.popup.subscribe{
+  padding: 15px;
+  position: absolute;
+  z-index: 20;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0,0,0,0.37);
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  .wrapper {
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 130px;
+    display: flex;
+    width: 810px;
+    max-width: 100%;
+    max-height: 100%;
+    flex-direction: column;
+    .close-popup {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    h4 {
+      font-size: 18px;
+      margin-top: 0;
+    }
+    .subscribe-form {
+      display: flex;
+      .email-field {
+        flex: 1 1 337px;
+        font-size: 14px;
+        padding: 14px 12px;
+      }
+      .button {
+        background-color: #3a84db;
+        border: 1px solid #3a84db;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 13px 50px;
+        text-transform: unset;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 0;
+        margin-left: 6px;
+        &:hover {
+          background-color: #fff;
+          color: #3a84db;
+        }
+      }
+    }
+  }
+}
 .w100 {
   width: 100%;
 }

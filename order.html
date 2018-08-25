@@ -8,7 +8,7 @@
 <head>
 	<meta charset="utf-8" />
 
-	<title>Главная</title>
+	<title>Оформление заказа</title>
 	<meta content="" name="description" />
 	<meta content="" property="og:image" />
 	<meta content="" property="og:description" />
@@ -24,13 +24,11 @@
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome-4.7.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.min.css" />
-	<link rel="stylesheet" href="libs/owl-carousel/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/order.css" />
 	<link rel="stylesheet" href="css/media-main.css" />
-	<link rel="stylesheet" href="css/media-index.css" />
+	<link rel="stylesheet" href="css/media-order.css" />
 </head>
 <body>
 	
@@ -62,7 +60,7 @@
 
 				<div class="slide-menu" id="slide-menu">
 					<ul class="list">
-						<li><a href="#">Главная</a></li> <!-- CURRENT PAGE HERE-->
+						<li><a href="#">Главная</a></li>
 						<hr>
 						<li><a href="#">О компании</a></li>
 						<li class="deploy-parent"><a>Каталог <i class="fa fa-angle-down"></i></a>
@@ -300,34 +298,6 @@
 </div>
 </div>
 
-<!-- SUBSCRIBE -->
-<div class="popup subscribe">
-	<div class="wrapper">
-		<div class="fa fa-close close-popup"></div>
-		<h4>Пописка на новости и акции!</h4>
-		<form class="subscribe-form">
-			<input type="text" class="email-field" name="email" placeholder="Введите ваш e-mail">
-			<input type="button" value="Подписаться!" class="button">
-		</form>
-		</div>
-	</div>
-</div>
-
-
-<!-- NOTIFICATIONS POPUP -->
-<div class="popup notification">
-	<div class="wrapper">
-		<div class="wrapper-info">
-			<div class="image">
-				<img src="img/logo.png" alt="">
-			</div>
-			<p>Вы хотите подписаться на уведомления об акциях и новинках прямо сейчас?</p>
-		</div>
-		<a href="#" class="button close-popup white">Нет</a>
-		<a href="#" class="button">Хочу!</a>
-	</div>
-</div>
-
 <div class="dark menu"></div>
 
 <div class="variety-menu">
@@ -369,257 +339,322 @@
 </div>
 </section>
 
-<section class="carousel owl-carousel slider">
+<div class="breadcrumbs">
 	<div class="container">
-	<div class="item-wrapper">
-		<div class="container">
-			<div class="row paddings-lr">
-				<h2>Огромный Выбор - Ящики</h2>
-				<h4>Все категории ящиков для различных производств</h4>
-				<div class="nav-btn-wrapper">
-					<a href="#" class="button b-red">Подробнее</a>
-					<div class="nav nav-prev"><i class="fa fa-angle-left"></i></div>
-					<div class="nav nav-next"><i class="fa fa-angle-right"></i></div>
-				</div>
-			</div>
-		</div>
-		<div class="hover-item">
-			<img src="img/red.png" alt="">
+		<div class="row paddings-lr">
+			<a href="#">Главная</a> 
+			<span class="slash"> / </span>
+			<a href="#">Корзина</a>
 		</div>
 	</div>
 </div>
 
-<div class="container">
-	<div class="item-wrapper blue">
+<section class="order-block">
+	<div class="container">
+		<div class="row title paddings-lr">
+			<hr class="mobile-only w100">
+			<h2 class="section-name">Корзина</h2>
+			<hr class="mobile-only w100">
+			<p class="mobile-only back-panel">В корзине 2 товара</p>
+		</div>
+		<hr>
+	</div>
+	<form id="order-form">
 		<div class="container">
-			<div class="row paddings-lr">
-				<h2>Огромный Выбор - Ящики</h2>
-				<h4>Все категории ящиков для различных производств</h4>
-				<div class="nav-btn-wrapper">
-					<a href="#" class="button b-trans">Подробнее</a>
-					<div class="nav nav-prev"><i class="fa fa-angle-left"></i></div>
-					<div class="nav nav-next"><i class="fa fa-angle-right"></i></div>
-				</div>
-			</div>
-		</div>
-		<div class="hover-item">
-			<img src="img/yel-g.png" alt="">
-		</div>
-	</div>
-</div>
-</section>
+			<div class="row order-form paddings-lr">
+				<div class="order">
+					<hr class="mobile-only w100 m0">
+					<h2 class="w100 mobile-only title">Оформление товара</h2>
+					<hr class="mobile-only w100 m0">
+					<div class="form-top">
+						<div class="fields-wrapper">
 
-<section class="catalogue-news">
-	<div class="container">
-		<div class="row title-nav paddings-lr">
-			<h2>Новинки в каталоге продукции</h2>
-			<div class="nav-wrapper pc-only">
-				<div class="nav nav-prev">
-					<i class="fa fa-angle-left"></i>
-				</div><div class="nav nav-next">
-					<i class="fa fa-angle-right"></i>
-				</div>
-			</div>
-		</div>
-		<div class="row owl-carousel catalogue-carousel paddings-lr-18">
-			<div class="item">
-				<a href="#"><div class="image" style="background-image: url(img/product1.png)">
-					<span class="tip">Новинка</span>
-				</div></a>	<!-- SAME LINKS -->
-				<a href="#"><h4>116 руб.</h4></a>	<!-- SAME LINKS -->
-				<a href="#"><p>Logic store Складной лоток <br> 350x225x150</p></a>	<!-- SAME LINKS -->
-				<div class="button-wrapper">
-					<a href="#" class="button">Подробнее</a>	<!-- SAME LINKS -->
-				</div>
-			</div>
+							<div class="item">
+								<p class="title">Телефон</p>
+								<div class="field">
+									<input type="text" name="phone" placeholder="+7">
+									<div class="tip">Введите номер Вашего мобильного телефона<br>
+									Например +7(999) 000 00 00</div>
+								</div>
+							</div>
 
-			<div class="item">
-				<a href="#"><div class="image" style="background-image: url(img/product2.png)">
-					<span class="tip">Новинка</span>
-				</div></a> <!-- SAME LINKS -->
-				<a href="#"><h4>116 руб.</h4></a> <!-- SAME LINKS -->
-				<a href="#"><p>Logic store Складной лоток <br> 350x225x150</p></a> <!-- SAME LINKS -->
-				<div class="button-wrapper">
-					<a href="#" class="button">Подробнее</a>  <!-- SAME LINKS -->
-				</div>
-			</div>
+							<div class="item pc-only">
+								<p class="title">Город доставки</p>
+								<div class="field">
+									<input type="text" name="phone" placeholder="г. Москва">
+								</div>
+							</div>
 
-			<div class="item">
-				<a href="#"><div class="image" style="background-image: url(img/product3.png)">
-					<span class="tip">Новинка</span>
-				</div></a> <!-- SAME LINKS -->
-				<a href="#"><h4>116 руб.</h4></a> <!-- SAME LINKS -->
-				<a href="#"><p>Logic store Складной лоток <br> 350x225x150</p></a> <!-- SAME LINKS -->
-				<div class="button-wrapper">
-					<a href="#" class="button">Подробнее</a>  <!-- SAME LINKS -->
-				</div>
-			</div>
-		</div>
+							<div class="item pc-only">
+								<p class="title">Способ доставки</p>
+								<div class="field">
+									<div class="control-group">
+										<label class="control control-radio">
+											Самовывоз
+											<input type="radio" name="delivery" checked="checked" value="self"/>
+											<div class="control_indicator"></div>
+										</label>
+										<label class="control control-radio">
+											Доставка курьером по городу
+											<input type="radio" name="delivery" value="city"/>
+											<div class="control_indicator"></div>
+										</label>
+										<label class="control control-radio">
+											Доствка по России
+											<input type="radio" name="delivery" value="country"/>
+											<div class="control_indicator"></div>
+										</label>
+									</div>
+								</div>
+							</div>
 
-		<div class="mobile-only">
-			<div class="row title-nav">
-				<div class="nav-wrapper">
-					<div class="nav nav-prev">
-						<i class="fa fa-angle-left"></i>
-					</div><div class="nav nav-next">
-						<i class="fa fa-angle-right"></i>
+							<div class="item">
+								<p class="title">Имя</p>
+								<div class="field">
+									<input type="text" name="name" placeholder="Имя">
+									<div class="tip">Это поле необходимо заполнить</div>
+								</div>
+							</div>
+
+							<div class="item pc-only">
+								<p class="title">Фамилия</p>
+								<div class="field">
+									<input type="text" name="surname">
+								</div>
+							</div>
+
+							<div class="item">
+								<p class="title">Электронная почта</p>
+								<div class="field">
+									<input type="text" name="email" placeholder="Электронная почта">
+									<div class="checkbox">
+										<input type="checkbox" name="subscribe" checked="checked"> 
+										Подписаться на новости и скидки
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<p class="title">Комментарий</p>
+								<div class="field">
+									<textarea name="comment" placeholder="Комментарий"></textarea>
+								</div>
+							</div>
+
+						</div>
+						<div class="info">
+							<h3>Цена выгоднее</h3>
+							<p>При заказе любого товара от 100.000 рублей, цена становится выгоднее.</p>
+							<h3>Доставка по всей Росиии</h3>
+							<p>У вас всегда есть возможность получить доставку транспортной компанией по всей России</p>
+						</div>
+					</div>
+
+					<div class="products-list">
+						<h2 class="section-name">Выбранные товары</h2>
+						<hr class="pc-only">
+						<div class="items-wrapper">
+							<div class="item-p">
+								<div class="half">
+									<div class="image">
+										<img src="img/product1.png" alt="">
+									</div>
+									<div class="info-text">
+										<h3 clas="mobile-only">700 руб</h3>
+										<p class="desc-p">LOGIC STORE СКЛАДСКОЙ ЛОТОК 350Х225Х150</p>
+										<p class="pc-only">Цвет: зеленый</p>
+										<p class="pc-only">Размер 320*220</p>
+									</div>
+								</div>
+								<hr class="mobile-only">
+
+								<div class="counter">
+									<div class="part minus">–</div>
+									<input type="text" class="part number" value="1">
+									<div class="part plus">+</div>
+								</div>
+
+								<div class="price-n-remove">
+									<p class="pc-only">700руб</p>
+									<p class="remove"><i class="fa fa-trash-o"></i>Удалить</p>
+								</div>
+							</div>
+
+							<div class="item-p">
+								<div class="half">
+									<div class="image">
+										<img src="img/product1.png" alt="">
+									</div>
+									<div class="info-text">
+										<h3 clas="mobile-only">700 руб</h3>
+										<p class="desc-p">LOGIC STORE СКЛАДСКОЙ ЛОТОК 350Х225Х150</p>
+										<p class="pc-only">Цвет: зеленый</p>
+										<p class="pc-only">Размер 320*220</p>
+									</div>
+								</div>
+								<hr class="mobile-only">
+
+								<div class="counter">
+									<div class="part minus">–</div>
+									<input type="text" class="part number" value="1">
+									<div class="part plus">+</div>
+								</div>
+
+								<div class="price-n-remove">
+									<p class="pc-only">700руб</p>
+									<p class="remove"><i class="fa fa-trash-o"></i>Удалить</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
+		<div class="pay">
+			<div class="container">
+				<div class="row paddings-lr sum">
+					<div class="half left">
+						<p>Способ оплаты</p>
+						<select name="payingMethod">
+							<option selected value="online-card">Онлайн-оплата картой</option>
+							<option value="other">Другое</option>
+						</select>
+					</div>
+					<div class="half right">
+						<p>Итого: 10 товаров на сумму 100.000руб</p>
+						<h3>К оплате: 100.000руб</h3>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="container">
+				<div class="row send paddings-lr">
+					<p>Нажимая на кнопку «Отправить заказ», вы принимаете условия <br>
+						<a href="#">Публичной оферты</a></p>
+						<input type="button" class="button" value="Отправить заказ">
+					</div>
+				</div>
+			</div>
+		</form>
+	</section>
 
-<section class="know-more bg">
-	<div class="container paddings-lr">
-		<div class="row">
-			<p>ПластСервис – крупнейшее российское производственное предприятие по выпуску изделий из пластмасс.</p>
-			<a href="#" class="button b-red">Узнать больше</a>
-		</div>
-	</div>
-</section>
 
-<section class="news">
-	<div class="container">
-		<div class="row title paddings-lr">
-			<h2>Новости</h2>
-			<h3><a href="#">Все новости</a></h3>
-		</div>
-		<div class="row paddings-lr-40">
-			<div class="col-lg-4 item-wrapper">
+	<section class="recent-catalogue">
+		<div class="container">
+			<div class="row title paddings-lr">
+				<h2>Новинки в каталоге продукции</h2>
+			</div>
+			<hr>
+			<div class="row catalogue paddings-lr-30">
 				<div class="item">
-					<h3>Акция для цветочников</h3>
-					<p>Спешите принять участие в акции, количество подарков ограничено</p>
-					<div class="info">
-						<a href="#">Узнать больше<i class="fa fa-angle-right"></i></a>
-						<span class="date">28.06.2018</span>
+					<a href="#"><div class="image" style="background-image: url(img/product1.png)">
+					</div></a> <!-- SAME LINKS -->
+					<a href="#"><h4>116 руб.</h4></a> <!-- SAME LINKS -->
+					<a href="#"><p>Logic store Складной лоток <br> 350x225x150</p></a> <!-- SAME LINKS -->
+					<div class="button-wrapper">
+						<a href="#" class="button">Подробнее</a> <!-- SAME LINKS -->
 					</div>
 				</div>
-			</div>
 
-			<div class="col-lg-4 item-wrapper">
 				<div class="item">
-					<h3>В наличии на складе</h3>
-					<p>В производственной компании «ТАРПЛАСТ» вы можете приобрести пластиковую тару и ...</p>
-					<div class="info">
-						<a href="#">Узнать больше<i class="fa fa-angle-right"></i></a>
-						<span class="date">28.06.2018</span>
+					<a href="#"><div class="image" style="background-image: url(img/product1.png)">
+					</div></a> <!-- SAME LINKS -->
+					<a href="#"><h4>116 руб.</h4></a> <!-- SAME LINKS -->
+					<a href="#"><p>Logic store Складной лоток <br> 350x225x150</p></a> <!-- SAME LINKS -->
+					<div class="button-wrapper">
+						<a href="#" class="button">Подробнее</a> <!-- SAME LINKS -->
 					</div>
 				</div>
-			</div>
 
-			<div class="col-lg-4 item-wrapper">
 				<div class="item">
-					<h3>Скидка при онлайн заказе</h3>
-					<p>Уважаемые посетители сайта и клиенты компании «ТАРПЛАСТ», рады сообщить вам приятную новость!</p>
-					<div class="info">
-						<a href="#">Узнать больше<i class="fa fa-angle-right"></i></a>
-						<span class="date">28.06.2018</span>
+					<a href="#"><div class="image" style="background-image: url(img/product1.png)">
+					</div></a> <!-- SAME LINKS -->
+					<a href="#"><h4>116 руб.</h4></a> <!-- SAME LINKS -->
+					<a href="#"><p>Logic store Складной лоток <br> 350x225x150</p></a> <!-- SAME LINKS -->
+					<div class="button-wrapper">
+						<a href="#" class="button">Подробнее</a> <!-- SAME LINKS -->
+					</div>
+				</div>
+
+				<div class="item">
+					<a href="#"><div class="image" style="background-image: url(img/product1.png)">
+					</div></a> <!-- SAME LINKS -->
+					<a href="#"><h4>116 руб.</h4></a> <!-- SAME LINKS -->
+					<a href="#"><p>Logic store Складной лоток <br> 350x225x150</p></a> <!-- SAME LINKS -->
+					<div class="button-wrapper">
+						<a href="#" class="button">Подробнее</a> <!-- SAME LINKS -->
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
-<section class="blog">
-	<div class="container">
-		<div class="row title paddings-lr">
-			<h2>Блог</h2>
-		</div>
-	</div>
-	<div class="row">
-		<div class="item white">
-			<div>
-				<h4>Пластиковые ящики для хлеба и кондитерских изделий</h4>
-				<p>Качественная пластиковая тара компании Тарпласт в Мосвке зарекомендовала себя на ...</p>
+	<section class="know-more questions">
+		<div class="container">
+			<div class="row title paddings-lr-40">
+				<h3>Появились вопросы?</h3>
 			</div>
-			<a href="#" class="button">Узнать больше</a>
-		</div>
-
-		<div class="item">
-			<div>
-				<h4>Ящик для молочной продукции</h4>
-				<p>Абсолютно гладкая пластиковая тара компании надежно защищает тонкую их упаковку от ...</p>
+			<div class="row paddings-lr-40">
+				<p>Если вы хотите связаться с нами, у вас есть предложение о партнерстве или иные вопросы, пожалуйста, нажмите кнопку ниже и оставьте заявку. Нашии менеджеры свяжутся с вами в кратчайшие сроки.</p>
+				<a href="#" class="button b-red">Отправить заявку</a>
 			</div>
-			<a href="#" class="button">Узнать больше</a>
 		</div>
+	</section>
 
-		<div class="item">
-			<div>
-				<h4>Ящик для мясной продукции</h4>
-				<p>Пластиковый ящик для мясной продукции – это специальная тара, которая делает транспортную ...</p>
-			</div>
-			<a href="#" class="button">Узнать больше</a>
-		</div>
-	</div>
-</section>
-
-<section class="know-more questions">
-	<div class="container">
-		<div class="row title paddings-lr-40">
-			<h3>Появились вопросы?</h3>
-		</div>
-		<div class="row paddings-lr-40">
-			<p>Если вы хотите связаться с нами, у вас есть предложение о партнерстве или иные вопросы, пожалуйста, нажмите кнопку ниже и оставьте заявку. Нашии менеджеры свяжутся с вами в кратчайшие сроки.</p>
-			<a href="#" class="button b-red">Отправить заявку</a>
-		</div>
-	</div>
-</section>
-
-<section class="footer">
-	<div class="container">
-		<div class="row paddings-lr-40">
-			<div class="col-md-3 item one pc-only">
-				<h3>Пластсервис</h3>
-				<ul>
-					<li><a href="#">О компании</a></li>
-					<li><a href="#">Доставка и Оплата</a></li>
-					<li><a href="#">Дилеры</a></li>
-					<li><a href="#">Новости</a></li>
-					<li><a href="#">Где купить</a></li>
-					<li><a href="#">Контакты</a></li>
-					<li><a href="#">Карта сайта</a></li>
-				</ul>
-			</div>
-			<div class="col-md-5 item two">
-				<h3>Мы в соцсетях</h3>
-				<div class="socials">
-					<div class="item">
-						<a href="#"><i class="fa fa-instagram"></i></a>
-					</div>
-					<div class="item">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-					</div>
-					<div class="item">
-						<a href="#"><i class="fa fa-vk"></i></a>
-					</div>
-					<div class="item">
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</div>
+	<section class="footer">
+		<div class="container">
+			<div class="row paddings-lr-40">
+				<div class="col-md-3 item one pc-only">
+					<h3>Пластсервис</h3>
+					<ul>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Доставка и Оплата</a></li>
+						<li><a href="#">Дилеры</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Где купить</a></li>
+						<li><a href="#">Контакты</a></li>
+						<li><a href="#">Карта сайта</a></li>
+					</ul>
 				</div>
-				<hr class="wider mobile-only">
-				<h3>Партнерам</h3>
-				<p><a href="#">Стать партнером ПластСервис</a></p>
-				<br>
-				<!-- <p>Вы также можете перейти на <a href="#">мобильную версию сайта</a>.</p> -->
+				<div class="col-md-5 item two">
+					<h3>Мы в соцсетях</h3>
+					<div class="socials">
+						<div class="item">
+							<a href="#"><i class="fa fa-instagram"></i></a>
+						</div>
+						<div class="item">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+						</div>
+						<div class="item">
+							<a href="#"><i class="fa fa-vk"></i></a>
+						</div>
+						<div class="item">
+							<a href="#"><i class="fa fa-twitter"></i></a>
+						</div>
+					</div>
+					<hr class="wider mobile-only">
+					<h3>Партнерам</h3>
+					<p><a href="#">Стать партнером ПластСервис</a></p>
+					<br>
+					<!-- <p>Вы также можете перейти на <a href="#">мобильную версию сайта</a>.</p> -->
+				</div>
+				<div class="col-md-4 item three pc-only">
+					<h3>Контакты</h3>
+					<p><img src="img/placeholder.png" alt="Адрес"> +7(495)741-14-14</p>
+					<p><img src="img/phone-call.png" alt="Адрес"> г. Москва, ул. Коштоянца д. 12, оф. 1</p>
+					<p><img src="img/envelope.png" alt="Адрес"> info@tarplast.ru</p>
+					<br>
+					<p><img src="img/clock.png" alt="Адрес"> Понедельник - Пятница: 9:00 - 18:00</p>
+				</div>
 			</div>
-			<div class="col-md-4 item three pc-only">
-				<h3>Контакты</h3>
-				<p><img src="img/placeholder.png" alt="Адрес"> +7(495)741-14-14</p>
-				<p><img src="img/phone-call.png" alt="Адрес"> г. Москва, ул. Коштоянца д. 12, оф. 1</p>
-				<p><img src="img/envelope.png" alt="Адрес"> info@tarplast.ru</p>
-				<br>
-				<p><img src="img/clock.png" alt="Адрес"> Понедельник - Пятница: 9:00 - 18:00</p>
+			<div class="row low paddings-lr pc-only">
+				<p><a href="#">Вакансии</a></p>
+				<p>© 2018 ПЛАСТСЕРВИС. ВСЕ ПРАВА СОБЛЮДЕНЫ.</p>
 			</div>
 		</div>
-		<div class="row low paddings-lr pc-only">
-			<p><a href="#">Вакансии</a></p>
-			<p>© 2018 ПЛАСТСЕРВИС. ВСЕ ПРАВА СОБЛЮДЕНЫ.</p>
-		</div>
-	</div>
-</section>
-<!-- end mandatory -->
+	</section>
+
+	<!-- end mandatory -->
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -628,10 +663,10 @@
 <![endif]-->
 <script src="libs/jquery/jquery.min.js"></script>
 <script src="libs/owl-carousel/owl.carousel.min.js"></script>
-<script src="libs/jquery.equalheights.min.js"></script>
+<script src="libs/owl.carousel2.thumbs.min.js"></script>
 <script src="libs/jquery.sticky.js"></script>
 <script src="js/common.js"></script>
-<script src="js/index.js"></script>
+<script src="js/order.js"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

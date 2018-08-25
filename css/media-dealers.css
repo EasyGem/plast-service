@@ -1,0 +1,135 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1439px) {
+	.dealers-block .row.info .half.address .item {
+		padding: 0 15px 10px 15px;
+		border-top: 1px solid #979797;
+	}
+	.dealers-block .row.info .half.address {
+		padding-left: 10px;
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media only screen and (max-width : 1200px) {
+	.dealers-block hr {
+		position: relative;
+		z-index: 1;
+		margin: 0 -30px;
+	}
+	.dealers-block .row.info .half.become {
+		flex: 0 0 610px;
+	}
+	.dealers-block .row.info {
+		flex-wrap: wrap;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.dealers-block .row.menu-of-sections ul li {
+		margin-right: 80px;
+	}
+	.dealers-block .row.menu-of-sections ul li a {
+		font-size: 24px;
+	}
+	.dealers-block .row.info .half.become {
+		padding-right: 0px;
+		flex: 0 0 100%;	
+	}
+	.dealers-block .row.info .half.address {
+		padding-left: 0px;
+		padding-top: 40px;
+		width: 100%;
+		text-align: center;
+	}
+	.dealers-block .row.info .half.address .item:first-child {
+		border-top: 1px solid #979797;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.dealers-block .row.menu-of-sections ul li a {
+		font-size: 20px;
+	}
+	.dealers-block .row.menu-of-sections ul li {
+		margin-right: 50px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 576px) {
+	.dealers-block .menu-of-sections {
+		padding: 0 15px;
+	}
+	.dealers-block .row.menu-of-sections ul li {
+		margin-right: 20px;
+	}
+	.dealers-block .row.menu-of-sections ul li a {
+		font-size: 14px;
+		text-align: center;
+	}
+	.dealers-block .row.info .half.become {
+		padding-right: 0px;
+		flex: 0 0 100%;
+		padding: 0 15px;
+	}
+	.dealers-block .row.info .half.become form.contact-form .item .title {
+		display: none;
+	}
+	.dealers-block .row.info .half.become form.contact-form .item {
+		justify-content: center;
+	}
+	.dealers-block .row.info .half.become form.contact-form .item {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.dealers-block .row.info .half h2 {
+		font-size: 32px;
+	}
+	.dealers-block .row.info .half.become h3 {
+		font-size: 18px;
+	}
+	.dealers-block .row.info .half.become form.contact-form .item .field {
+		flex: 0 1 376px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+@media only screen and (min-width : 1440px) {
+
+}

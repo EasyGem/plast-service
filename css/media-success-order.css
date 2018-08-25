@@ -1,0 +1,109 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1439px) {
+	.so-news-catalogue .row.catalogue .item {
+		margin: 0 5px;
+	}
+}
+@media only screen and (max-width : 1200px) {
+	.so-news-catalogue hr {
+		margin: 0 -30px;
+	}
+	.so-page hr {
+		margin: 0 -30px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.so-news-catalogue .row.catalogue {
+		flex-wrap: wrap;
+	}
+	.so-news-catalogue .row.catalogue .item {
+		flex: 1 1 40%;
+	}
+	.so-news-catalogue hr{
+		margin: 0 -30px 0 -30px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 576px) {
+	.so-news-catalogue .row.catalogue .item {
+		flex: 1 1 100%;
+		border: none;
+	}
+	.so-news-catalogue .row.catalogue .item:hover {
+		border: none;
+	}
+	.so-news-catalogue .row.title {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.so-page h2 {
+		font-size: 34px;
+	}
+	.so-news-catalogue .row.title h2 {
+		margin-bottom: 10px;
+	}
+	.so-news-catalogue .row.catalogue .item .button-wrapper{
+		display: none;
+	}
+	.so-page .row.title h2 {
+		width: 100%;
+		text-align: center;
+	}
+	.so-page .row.info {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.so-page .row.info p {
+		margin: 7px 0;
+		font-size: 14px;
+	}
+	.so-news-catalogue .row.title h2 {
+		font-size: 22px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+@media only screen and (min-width : 1440px) {
+
+}

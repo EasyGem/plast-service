@@ -8,7 +8,7 @@
 <head>
 	<meta charset="utf-8" />
 
-	<title>Главная</title>
+	<title>Дилеры</title>
 	<meta content="" name="description" />
 	<meta content="" property="og:image" />
 	<meta content="" property="og:description" />
@@ -24,13 +24,11 @@
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome-4.7.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.min.css" />
-	<link rel="stylesheet" href="libs/owl-carousel/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/dealers.css" />
 	<link rel="stylesheet" href="css/media-main.css" />
-	<link rel="stylesheet" href="css/media-index.css" />
+	<link rel="stylesheet" href="css/media-dealers.css" />
 </head>
 <body>
 	
@@ -62,7 +60,7 @@
 
 				<div class="slide-menu" id="slide-menu">
 					<ul class="list">
-						<li><a href="#">Главная</a></li> <!-- CURRENT PAGE HERE-->
+						<li><a href="#">Главная</a></li>
 						<hr>
 						<li><a href="#">О компании</a></li>
 						<li class="deploy-parent"><a>Каталог <i class="fa fa-angle-down"></i></a>
@@ -300,34 +298,6 @@
 </div>
 </div>
 
-<!-- SUBSCRIBE -->
-<div class="popup subscribe">
-	<div class="wrapper">
-		<div class="fa fa-close close-popup"></div>
-		<h4>Пописка на новости и акции!</h4>
-		<form class="subscribe-form">
-			<input type="text" class="email-field" name="email" placeholder="Введите ваш e-mail">
-			<input type="button" value="Подписаться!" class="button">
-		</form>
-		</div>
-	</div>
-</div>
-
-
-<!-- NOTIFICATIONS POPUP -->
-<div class="popup notification">
-	<div class="wrapper">
-		<div class="wrapper-info">
-			<div class="image">
-				<img src="img/logo.png" alt="">
-			</div>
-			<p>Вы хотите подписаться на уведомления об акциях и новинках прямо сейчас?</p>
-		</div>
-		<a href="#" class="button close-popup white">Нет</a>
-		<a href="#" class="button">Хочу!</a>
-	</div>
-</div>
-
 <div class="dark menu"></div>
 
 <div class="variety-menu">
@@ -369,189 +339,148 @@
 </div>
 </section>
 
-<section class="carousel owl-carousel slider">
+<div class="breadcrumbs">
 	<div class="container">
-	<div class="item-wrapper">
-		<div class="container">
-			<div class="row paddings-lr">
-				<h2>Огромный Выбор - Ящики</h2>
-				<h4>Все категории ящиков для различных производств</h4>
-				<div class="nav-btn-wrapper">
-					<a href="#" class="button b-red">Подробнее</a>
-					<div class="nav nav-prev"><i class="fa fa-angle-left"></i></div>
-					<div class="nav nav-next"><i class="fa fa-angle-right"></i></div>
-				</div>
-			</div>
-		</div>
-		<div class="hover-item">
-			<img src="img/red.png" alt="">
+		<div class="row paddings-lr">
+			<a href="#">Главная</a> 
+			<span class="slash">/</span>
+			<a href="#">Дилеры</a>
 		</div>
 	</div>
 </div>
 
-<div class="container">
-	<div class="item-wrapper blue">
-		<div class="container">
-			<div class="row paddings-lr">
-				<h2>Огромный Выбор - Ящики</h2>
-				<h4>Все категории ящиков для различных производств</h4>
-				<div class="nav-btn-wrapper">
-					<a href="#" class="button b-trans">Подробнее</a>
-					<div class="nav nav-prev"><i class="fa fa-angle-left"></i></div>
-					<div class="nav nav-next"><i class="fa fa-angle-right"></i></div>
-				</div>
-			</div>
-		</div>
-		<div class="hover-item">
-			<img src="img/yel-g.png" alt="">
-		</div>
+<!-- POPUP WHEN THE MESSAGE IS SENT -->
+<div class="popup thanks">
+	<div class="wrapper">
+		<div class="fa fa-close close-popup"></div>
+			<h2>Спасибо! Заявка принята!
+Наш менеджер свяжется с Вам.</h2>
 	</div>
 </div>
-</section>
 
-<section class="catalogue-news">
+<section class="dealers-block">
 	<div class="container">
-		<div class="row title-nav paddings-lr">
-			<h2>Новинки в каталоге продукции</h2>
-			<div class="nav-wrapper pc-only">
-				<div class="nav nav-prev">
-					<i class="fa fa-angle-left"></i>
-				</div><div class="nav nav-next">
-					<i class="fa fa-angle-right"></i>
-				</div>
-			</div>
+		<hr class="mobile-only">
+		<div class="row paddings-lr menu-of-sections">
+			<ul class="horizontal-menu">
+				<li><a href="#">Доставка</a></li>
+				<li class="active"><a href="#">Дилеры</a></li>
+				<li><a href="#">Контакты</a></li>
+				<li><a href="#">Где купить</a></li>
+			</ul>
 		</div>
-		<div class="row owl-carousel catalogue-carousel paddings-lr-18">
-			<div class="item">
-				<a href="#"><div class="image" style="background-image: url(img/product1.png)">
-					<span class="tip">Новинка</span>
-				</div></a>	<!-- SAME LINKS -->
-				<a href="#"><h4>116 руб.</h4></a>	<!-- SAME LINKS -->
-				<a href="#"><p>Logic store Складной лоток <br> 350x225x150</p></a>	<!-- SAME LINKS -->
-				<div class="button-wrapper">
-					<a href="#" class="button">Подробнее</a>	<!-- SAME LINKS -->
-				</div>
-			</div>
+		<hr>	
+		
+		<div class="row paddings-lr info">
+			<div class="half become">
+				<h2>Как стать дилером?</h2>
+				<h3>Заполните форму и наш менеджер с вами свяжется!</h3>
+				<br>
 
-			<div class="item">
-				<a href="#"><div class="image" style="background-image: url(img/product2.png)">
-					<span class="tip">Новинка</span>
-				</div></a> <!-- SAME LINKS -->
-				<a href="#"><h4>116 руб.</h4></a> <!-- SAME LINKS -->
-				<a href="#"><p>Logic store Складной лоток <br> 350x225x150</p></a> <!-- SAME LINKS -->
-				<div class="button-wrapper">
-					<a href="#" class="button">Подробнее</a>  <!-- SAME LINKS -->
-				</div>
-			</div>
-
-			<div class="item">
-				<a href="#"><div class="image" style="background-image: url(img/product3.png)">
-					<span class="tip">Новинка</span>
-				</div></a> <!-- SAME LINKS -->
-				<a href="#"><h4>116 руб.</h4></a> <!-- SAME LINKS -->
-				<a href="#"><p>Logic store Складной лоток <br> 350x225x150</p></a> <!-- SAME LINKS -->
-				<div class="button-wrapper">
-					<a href="#" class="button">Подробнее</a>  <!-- SAME LINKS -->
-				</div>
-			</div>
-		</div>
-
-		<div class="mobile-only">
-			<div class="row title-nav">
-				<div class="nav-wrapper">
-					<div class="nav nav-prev">
-						<i class="fa fa-angle-left"></i>
-					</div><div class="nav nav-next">
-						<i class="fa fa-angle-right"></i>
+				<form class="contact-form">
+					<div class="item">
+						<p class="title">Имя</p>
+						<div class="field">
+							<input name="name" placeholder="Имя">
+							<div class="tip"></div>
+						</div>
 					</div>
-				</div>
+
+					<div class="item">
+						<p class="title">Телефон</p>
+						<div class="field">
+							<input name="phone" placeholder="+7">
+							<div class="tip"></div>
+						</div>
+					</div>
+
+					<div class="item">
+						<p class="title">Город</p>
+						<div class="field">
+							<input name="town" placeholder="г. Москва">
+							<div class="tip"></div>
+						</div>
+					</div>
+
+					<div class="item">
+						<p class="title">Компания</p>
+						<div class="field">
+							<input name="company" placeholder="Компания">
+							<div class="tip"></div>
+						</div>
+					</div>
+
+					<div class="item">
+						<p class="title">E-mail</p>
+						<div class="field">
+							<input name="email" class="alert" placeholder="E-mail">
+							<div class="tip">Это поле необходимо заполнить</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<p class="title">Основное напавление деятельности вашей компании?</p>
+						<div class="field">
+							<input name="activity" placeholder="Направление деятельности">
+							<div class="tip"></div>
+						</div>
+					</div>
+
+
+					<input type="button" class="button" value="Стать дилером">
+
+				</form>
 			</div>
-		</div>
-	</div>
-</section>
-
-<section class="know-more bg">
-	<div class="container paddings-lr">
-		<div class="row">
-			<p>ПластСервис – крупнейшее российское производственное предприятие по выпуску изделий из пластмасс.</p>
-			<a href="#" class="button b-red">Узнать больше</a>
-		</div>
-	</div>
-</section>
-
-<section class="news">
-	<div class="container">
-		<div class="row title paddings-lr">
-			<h2>Новости</h2>
-			<h3><a href="#">Все новости</a></h3>
-		</div>
-		<div class="row paddings-lr-40">
-			<div class="col-lg-4 item-wrapper">
+			<div class="half address">
 				<div class="item">
-					<h3>Акция для цветочников</h3>
-					<p>Спешите принять участие в акции, количество подарков ограничено</p>
-					<div class="info">
-						<a href="#">Узнать больше<i class="fa fa-angle-right"></i></a>
-						<span class="date">28.06.2018</span>
-					</div>
-				</div>
-			</div>
+					<h3>Москва</h3>
 
-			<div class="col-lg-4 item-wrapper">
+					<p>Компания: ООО «Азалия Декор»</p>
+					<p>Адрес: 123290 г. Москва, <br>
+					1-й Магистральный проезд,дом 12</p>
+					<p>тел: +7 (495) 980-11-77 <br>
+					+7 (495) 933-26-94</p>
+					<p>web: www.azaliadecor.ru</p>
+					<p>mail: info@azaliadecor.ru</p>
+				</div>
+
 				<div class="item">
-					<h3>В наличии на складе</h3>
-					<p>В производственной компании «ТАРПЛАСТ» вы можете приобрести пластиковую тару и ...</p>
-					<div class="info">
-						<a href="#">Узнать больше<i class="fa fa-angle-right"></i></a>
-						<span class="date">28.06.2018</span>
-					</div>
-				</div>
-			</div>
+					<h3>Ярославль</h3>
 
-			<div class="col-lg-4 item-wrapper">
+					<p>Компания: ООО ООО «ПромСтандарт»</p>
+					<p>Адрес: 150000 г.Ярославль, <br>
+					ул.Которосльная наб., 22/10,</p>
+					<p>тел: 8-800-222-34-76 <br>
+					+7 (4852) 33-34-76</p>
+					<p>mail: sales@prom-st.ru</p>
+				</div>
+
 				<div class="item">
-					<h3>Скидка при онлайн заказе</h3>
-					<p>Уважаемые посетители сайта и клиенты компании «ТАРПЛАСТ», рады сообщить вам приятную новость!</p>
-					<div class="info">
-						<a href="#">Узнать больше<i class="fa fa-angle-right"></i></a>
-						<span class="date">28.06.2018</span>
-					</div>
+					<h3>Ростов</h3>
+
+					<p>Компания: ООО «Донполимер»</p>
+					<p>Адрес: 344090 г. Ростов, <br>
+					Доватора 150, офис 94.</p>
+					<p>тел: +7 (863) 333-56-84 <br>
+					+7(900)132-55-22</p>
+					<p>web: www.don-polimer.ru</p>
+					<p>mail: rostov@don-polimer.ru</p>
+				</div>
+
+				<div class="item">
+					<h3>Донецк</h3>
+
+					<p>Компания: ООО «Донполимер»</p>
+					<p>Адрес: 344090 г. Ростов, <br>
+					Доватора 150, офис 94.</p>
+					<p>тел: +7 (863) 333-56-84 <br>
+					+7(900)132-55-22</p>
+					<p>web: www.don-polimer.ru</p>
+					<p>mail: rostov@don-polimer.ru</p>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
 
-<section class="blog">
-	<div class="container">
-		<div class="row title paddings-lr">
-			<h2>Блог</h2>
-		</div>
-	</div>
-	<div class="row">
-		<div class="item white">
-			<div>
-				<h4>Пластиковые ящики для хлеба и кондитерских изделий</h4>
-				<p>Качественная пластиковая тара компании Тарпласт в Мосвке зарекомендовала себя на ...</p>
-			</div>
-			<a href="#" class="button">Узнать больше</a>
-		</div>
-
-		<div class="item">
-			<div>
-				<h4>Ящик для молочной продукции</h4>
-				<p>Абсолютно гладкая пластиковая тара компании надежно защищает тонкую их упаковку от ...</p>
-			</div>
-			<a href="#" class="button">Узнать больше</a>
-		</div>
-
-		<div class="item">
-			<div>
-				<h4>Ящик для мясной продукции</h4>
-				<p>Пластиковый ящик для мясной продукции – это специальная тара, которая делает транспортную ...</p>
-			</div>
-			<a href="#" class="button">Узнать больше</a>
-		</div>
 	</div>
 </section>
 
@@ -619,6 +548,7 @@
 		</div>
 	</div>
 </section>
+
 <!-- end mandatory -->
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
@@ -627,11 +557,8 @@
 	<script src="libs/respond/respond.min.js"></script>
 <![endif]-->
 <script src="libs/jquery/jquery.min.js"></script>
-<script src="libs/owl-carousel/owl.carousel.min.js"></script>
-<script src="libs/jquery.equalheights.min.js"></script>
 <script src="libs/jquery.sticky.js"></script>
 <script src="js/common.js"></script>
-<script src="js/index.js"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

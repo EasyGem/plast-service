@@ -1,0 +1,220 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1439px) {
+	.order-block .products-list hr {
+	width: 100%;
+	margin: 0;
+}
+}
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.recent-catalogue .row.catalogue {
+		flex-wrap: wrap;
+	}
+	.recent-catalogue .row.catalogue .item {
+		flex: 1 1 40%;
+	}
+	.recent-catalogue hr:not(.m0){
+		margin: 0 -30px 0 -30px;
+	}
+	.order-block .row.order-form .order .info {
+		display: none;
+	}
+	.order-block hr:not(.m0){
+		margin: 0 -30px;
+	}
+	.order-block .products-list .items-wrapper .item-p .price-n-remove {
+		font-weight: 500;
+		font-size: 16px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-end;
+		flex: 0 0 160px;
+	}
+	.order-block .products-list .items-wrapper .item-p .counter {
+		padding: 0 15px;
+	}
+	.order-block .pay .sum .half.right {
+		align-items: flex-start;
+	}
+	.order-block .pay .sum .half.right h3 {
+		margin-top: 15px;
+	}
+	.order-block .pay .sum .half.right p {
+		margin-top: 15px;
+	}
+	.order-block .pay .sum .half.left p {
+		margin-right: 30px;
+	}
+	.order-block .pay .sum .half.left {
+		width: 100%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.recent-catalogue {
+		display: none;
+	}
+	.order-block .row.order-form .order .fields-wrapper {
+		flex: 0 1 600px;
+	}
+	.order-block .row.order-form .order .item .field {
+		flex: 0 1 355px;
+	}
+	.order-block .products-list .items-wrapper .item-p {
+		flex-wrap: wrap;
+	}
+	.order-block .products-list .items-wrapper .item-p .half {
+		width: 100%;
+		flex: unset;
+	}
+	.order-block .products-list .items-wrapper .item-p .counter {
+		align-items: center;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 576px) {
+	.order-block .row.title h2 {
+		text-align: center;
+		width: 100%;
+	}
+	.order-block .products-list .items-wrapper .item-p {
+		padding: 25px 0 20px 0;
+	}
+		.order-block .row.order-form .order {
+		padding-top: 0px;
+	}
+	.order-block .products-list .items-wrapper .item-p .half {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+	}
+	.order-block .products-list .items-wrapper .item-p .info-text h3{
+		margin-top: 0;
+		font-size: 16px;
+	}
+	.order-block .products-list .items-wrapper .item-p .info-text p{
+		font-size: 13px;
+	}
+	.order-block .products-list .items-wrapper .item-p {
+		justify-content: space-around;
+	}
+	.order-block .products-list .items-wrapper .item-p .counter {
+		padding-top: 20px;	
+	}
+	.order-block .products-list .items-wrapper .item-p .price-n-remove {
+		padding: 20px 15px;
+		flex: unset;
+	}
+	.order-block .products-list .items-wrapper .item-p .price-n-remove .remove {
+		margin: 20px 0 0 0;
+	}
+	.order-block .pay .sum {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 15px;
+	}
+	.order-block .pay .sum .half.left {
+		flex-direction: column;
+		-ms-align-items: flex-start;
+		align-items: flex-start;
+	}
+	.order-block .pay .sum .half.left p {
+		font-weight: 500;
+		font-size: 16px;
+	}
+	.order-block .pay {
+		background-color: #f4f4f4;
+	}
+	.order-block .pay .send {
+		padding-left: 15px;
+		padding-right: 15px;
+		justify-content: center;
+	}
+	.order-block .pay .sum .half.right h3 {
+		font-size: 22px;
+	}
+	.order-block .pay .sum .half.right p {
+		font-size: 16px;
+		text-align: left;
+	}
+	.order-block .pay .send p {
+		text-align: center;
+		font-size: 14px;
+	}
+	.order-block .pay .send br {
+		display: none;
+	}
+	.order-block .pay .sum .half.left select {
+		width: 100%;
+	}
+	.order-block .products-list h2 {
+		display: none;
+	}
+	.order-block .products-list {
+		order: -1;
+	}
+	.order-block .row.order-form  .order>.title {
+		text-align: center;
+	}
+	.order-block .row.order-form .order .item .title {
+		display: none;
+	}
+	.order-block .row.order-form .order .item {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 22px;
+		padding-bottom: 0;
+	}
+	.order-block .row.order-form .order .item .field .tip {
+		display: none;
+	}
+	.order-block .row.order-form .order .item .field .checkbox {
+		margin-top: 20px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+@media only screen and (min-width : 1440px) {
+
+}

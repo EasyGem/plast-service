@@ -21,32 +21,32 @@
 		flex-direction: column;
 	}
 	.paddings-lr-18 {
-	  padding-right: unset;
-	  padding-left: unset;
+		padding-right: unset;
+		padding-left: unset;
 	}
 	.paddings-lr-25-5 {
-	  padding-left: 27unset;
-	  padding-right: 27unset;
+		padding-left: 27unset;
+		padding-right: 27unset;
 	}
 	.paddings-lr-30 {
-	  padding-left: unset;
-	  padding-right: unset;
+		padding-left: unset;
+		padding-right: unset;
 	}
 	.paddings-lr-40 {
-	  padding-left: unset;
-	  padding-right: unset;
+		padding-left: unset;
+		padding-right: unset;
 	}
 	.paddings-lr-45 {
-	  padding-left: unset;
-	  padding-right: unset;
+		padding-left: unset;
+		padding-right: unset;
 	}
 	.paddings-lr {
-	  padding-left: unset;
-	  padding-right: unset;
+		padding-left: unset;
+		padding-right: unset;
 	}
 	.paddings-lr-70 {
-	  padding-left: unset;
-	  padding-right: unset;
+		padding-left: unset;
+		padding-right: unset;
 	}
 	.submenu.company {
 		justify-content: center;
@@ -75,6 +75,9 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
+	.popup.subscribe .wrapper {
+		padding: 30px 50px;
+	}
 	.header .variety-menu .row .menu li a.small {
 		display: none;
 	}
@@ -173,7 +176,24 @@
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 576px) {
+@media only screen and (max-width : 575px) {
+	.popup.subscribe .wrapper .subscribe-form {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.popup.subscribe .wrapper .subscribe-form .email-field {
+		flex: unset;
+	}
+	.popup.subscribe .wrapper .subscribe-form .button {
+		margin-left: 0;
+		margin-top: 5px;
+	}
+	.popup.subscribe .wrapper {
+		padding: 30px 20px;
+	}
 	h2 {
 		font-size: 24px;
 		font-weight: 500;
@@ -194,7 +214,7 @@
 	.header .menu-panel .row .logo-and-menu .menu-wrapper {
 		padding: 5px 0;
 	}
-    .header .menu-panel .row {
+	.header .menu-panel .row {
 		padding: 0;
 		font-size: 14px;
 	}
@@ -269,6 +289,18 @@
 		font-size: 18px;
 		color: #9b9b9b;
 	}
+	.popup.notification .wrapper .wrapper-info {
+		flex-direction: column;
+	}
+	.popup.notification .wrapper .wrapper-info p {
+		flex: unset;
+		width: 100%;
+		text-align: center;
+		margin-left: 0px;
+	}
+	.popup.notification .wrapper .wrapper-info .image {
+		flex: unset;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -299,7 +331,7 @@
 
 }
 
- /* Large Devices, Wide Screens */
+/* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
 }

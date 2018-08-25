@@ -1,0 +1,138 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1439px) {
+
+}
+@media only screen and (max-width : 1200px) {
+	.contacts-block hr {
+		position: relative;
+		z-index: 1;
+		margin: 0 -30px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.contacts-block .row.menu-of-sections ul li {
+		margin-right: 80px;
+	}
+	.contacts-block .row.menu-of-sections ul li a {
+		font-size: 24px;
+	}
+	.contacts-block .row.info {
+		flex-wrap: wrap;
+	}
+	.contacts-block .row.info .half.contact {
+		padding-right: 0px;
+	}
+	.contacts-block .row.info .half.map {
+		padding-left: 0px;
+	}
+	.contacts-block .row.info .half.contact {
+		flex: 1 0 590px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.contacts-block .row.menu-of-sections ul li a {
+		font-size: 20px;
+	}
+	.contacts-block .row.menu-of-sections ul li {
+		margin-right: 50px;
+	}
+	.contacts-block .row.info .half.contact {
+		flex: 1 0 100%;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 576px) {
+	.contacts-block .menu-of-sections {
+		padding: 0 15px;
+	}
+	.contacts-block .row.menu-of-sections ul li {
+		margin-right: 20px;
+	}
+	.contacts-block .row.menu-of-sections ul li a {
+		font-size: 14px;
+		text-align: center;
+	}
+	.contacts-block .row.info .half.map {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.contacts-block .row.info .half h2 {
+		font-size: 32px;
+	}
+	.contacts-block .row.info {
+		padding-top: 10px;
+		padding-bottom: 40px;
+	}
+	.contacts-block .row.info .half.contact form.contact-form .item .title {
+		display: none;
+	}
+	.contacts-block .row.info .half.contact, .contacts-block .row.info .half.map {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.contacts-block .row.info .half.map {
+		padding-top: 30px;
+	}
+	.contacts-block .row.info .half.contact form.contact-form .item {
+		padding-top: 16px;
+		justify-content: center;
+		padding-bottom: 10px;
+	}
+	.contacts-block .row.info .half.contact form.contact-form {
+		align-items: center;
+	}
+	.contacts-block .row.info .half h2 {
+		font-size: 24px;
+		font-weight: 500;
+	}
+	.contacts-block .row.info .half p {
+		font-size: 16px;
+	}
+	.contacts-block .row.info .half.contact p {
+		margin-bottom: 0;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+@media only screen and (min-width : 1440px) {
+
+}

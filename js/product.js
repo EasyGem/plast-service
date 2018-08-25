@@ -20,6 +20,11 @@ $(document).ready(function() {
 	    mouseDrag: false,
 	});
 
+	setTimeout(function() {
+		$(".popup.lower-price").css('display', 'flex');
+	}, 7500);
+
+
 	$(".product-carousel-wrapper  .nav-prev").click(function() {
 		$(".product-carousel .owl-nav .owl-prev").trigger('click');
 	});
