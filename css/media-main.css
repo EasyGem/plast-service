@@ -75,6 +75,12 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
+	.popup.application .wrapper form .item .field {
+		flex: 0 1 295px;
+	}
+	.popup.application .wrapper {
+		padding: 30px;
+	}
 	.popup.subscribe .wrapper {
 		padding: 30px 50px;
 	}
@@ -177,6 +183,17 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 575px) {
+	.popup.application .wrapper form .item .title {
+		display: none;
+	}
+	.popup.application .wrapper form .item .field {
+		width: 100%;
+		flex: unset;
+	}
+	.popup.application .wrapper form .item {
+		padding-top: 16px;
+		padding-bottom: 10px;
+	}
 	.popup.subscribe .wrapper .subscribe-form {
 		-webkit-flex-direction: column;
 		-moz-flex-direction: column;

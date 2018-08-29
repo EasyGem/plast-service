@@ -131,7 +131,8 @@
         .image {
           height: 319px;
           background-position: center center;
-          background-size: cover;
+          background-size: 100% auto;
+          background-repeat: no-repeat;
         }
         h4 {
           font-size: 24px;

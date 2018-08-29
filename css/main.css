@@ -11,6 +11,99 @@ h2 {
   font-size: 38px;
   font-weight: 500; }
 
+.popup.application {
+  padding: 15px;
+  position: absolute;
+  z-index: 20;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.37);
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overlflow: auto;
+  display: none; }
+  .popup.application .wrapper {
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 70px;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    width: 810px;
+    flex-wrap: wrap;
+    overflow: auto; }
+    .popup.application .wrapper .close-popup {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      font-size: 24px;
+      cursor: pointer; }
+    .popup.application .wrapper h4 {
+      font-size: 20px;
+      margin-top: 0;
+      width: 100%; }
+    .popup.application .wrapper form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end; }
+      .popup.application .wrapper form .button {
+        background-color: #4a90e2;
+        border: 1px solid #4a90e2;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 16px 42px;
+        color: #fff;
+        cursor: pointer;
+        text-transform: uppercase;
+        border-radius: 0;
+        margin-bottom: 30px;
+        margin-top: 10px; }
+        .popup.application .wrapper form .button:hover {
+          background-color: unset;
+          color: #4a90e2; }
+      .popup.application .wrapper form .item {
+        padding-top: 26px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 20px; }
+        .popup.application .wrapper form .item .title {
+          margin: 0;
+          font-size: 18px;
+          font-weight: 400; }
+        .popup.application .wrapper form .item .field {
+          flex: 0 1 376px; }
+          .popup.application .wrapper form .item .field input, .popup.application .wrapper form .item .field textarea {
+            background-color: #f9f9f9;
+            border: 1px solid #eaeaea;
+            padding: 8px 16px;
+            font-size: 13px;
+            width: 100%;
+            font-family: inherit; }
+          .popup.application .wrapper form .item .field textarea {
+            min-height: 105px;
+            resize: none; }
+          .popup.application .wrapper form .item .field .capture-wrapper {
+            display: flex;
+            justify-content: flex-end; }
+            .popup.application .wrapper form .item .field .capture-wrapper img {
+              width: 120px; }
+            .popup.application .wrapper form .item .field .capture-wrapper input {
+              width: 120px; }
+          .popup.application .wrapper form .item .field .tip {
+            width: 100%;
+            text-align: left;
+            font-size: 13px;
+            line-height: 1.62;
+            color: #db3832;
+            margin-top: 3px; }
+
 .popup.notification {
   padding: 0 15px;
   position: absolute;

@@ -7,6 +7,9 @@
 		width: 70px;
 		font-size: 60px;
 	}
+	.product-block .row.product-wrapper .thumbnails .owl-thumbs img {
+		width: 83px;
+	}
 }
 @media only screen and (max-width : 1200px) {
 	.product-block .row.product-wrapper .preview {
@@ -23,11 +26,14 @@
 	.product-info .row.info .reviews .review-form p:first-child {
 		margin-bottom: 50px;
 	}
-	.product-block .row.product-wrapper .thumbnails .owl-thumbs img {
-		height: 70px;
-	}
 	.product-block .row.product-wrapper .preview .product-carousel {
 		max-width: 520px;
+	}
+	.product-block .row.product-wrapper .thumbnails .owl-thumbs button {
+		margin-right: 5px;
+	}
+	.product-block .row.product-wrapper .thumbnails .owl-thumbs img {
+		width: 65px;
 	}
 }
 
